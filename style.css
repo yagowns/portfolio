@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333333;
+}
+
+.top { /* Working as the main cointainer */
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: auto;
+	grid-auto-flow: row;
+	padding: 50px 200px 50px 200px;
+}
+
+.top div {
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.item-a {
+	grid-column: 1;
+}
+
+.item-b {
+	grid-column: 2;
+}
+
+.item-c {
+	grid-column: 3;
+}
+
+.item-d {
+	grid-column: 4;
+	text-align: right;
+}
+
+.left {
+	background-color: #faf9f6;
+	float: left;
+	padding: 0;
+	height: 100vh;
+	width: 50vw;
+	transition: 0.5s ease-in-out;
+}
+
+.right {
+	background-color: #ffba00;
+	float: right;
+	height: 100vh;
+	width: 50vw;
+	transition: 0.5s ease-in-out;
+}
