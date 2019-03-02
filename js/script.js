@@ -11,15 +11,11 @@ var Homepage = Barba.BaseView.extend({
 	namespace: 'home',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	console.log('start enter');
 	//Change words on about page
-	var divs = $('span[id^="content-"]').hide(),
+	var divs = $('span[id^="content-"]').hide();
 	i = 0;
-		
-	(function cycle() {
-		divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
-		i = ++i % divs.length;
-	})();
+	divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
+	i = ++i % divs.length;
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
@@ -48,6 +44,7 @@ var showcaseArray = [
 $(document).ready(function(){
   $(document).mousemove(function(event){
     var prob = Math.random()* (20 - 1);
+    console.log(prob);
     var randomShowcase = showcaseArray[Math.floor(Math.random()*showcaseArray.length)];
     if (prob < 1) {
     	$('#showcase').removeClass('animate').addClass('animate');
