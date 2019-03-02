@@ -7,6 +7,25 @@ $('.top_left').mouseout(function () {
 	$('#yagomurakami').text('Ya Mu');
 });
 
+var Homepage = Barba.BaseView.extend({
+	namespace: 'home',
+	onEnter: function() {
+	// The new Container is ready and attached to the DOM.
+	$('#barba-wrapper').fadeIn(400).delay(100);
+	},
+	onEnterCompleted: function() {
+	// The Transition has just finished.
+	},
+	onLeave: function() {
+	// A new Transition toward a new page has just started.
+	},
+	onLeaveCompleted: function() {
+	// The Container has just been removed from the DOM.
+	}
+});
+// Don't forget to init the view!
+Homepage.init();
+
 var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
@@ -27,7 +46,6 @@ var AboutMe = Barba.BaseView.extend({
 	// The Container has just been removed from the DOM.
 	}
 });
-
 // Don't forget to init the view!
 AboutMe.init();
 
