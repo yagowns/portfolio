@@ -12,11 +12,11 @@ body {
 }
 
 #about_home, #about_work {
-	cursor: url('left.png'), auto;
+	cursor: url(), auto;
 }
 
 #home_about, #work_about, #work_home, #one, #two, #three, #four, #five {
-	cursor: url('right.png'), auto;
+	cursor: url(), auto;
 }
 
 #work_down {
