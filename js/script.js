@@ -7,8 +7,8 @@ $('.top_left').mouseout(function () {
 	$('#yagomurakami').text('Ya Mu');
 });
 
-var Homepage = Barba.BaseView.extend({
-	namespace: 'home',
+var AboutMe = Barba.BaseView.extend({
+	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
 	//Change words on about page
@@ -29,7 +29,7 @@ var Homepage = Barba.BaseView.extend({
 });
 
 // Don't forget to init the view!
-Homepage.init();
+AboutMe.init();
 
 //home and about circle showcase
 var showcaseArray = [
