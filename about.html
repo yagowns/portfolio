@@ -34,15 +34,17 @@
 				</div>
 				<span class="work_spacing vertical_centered_text r40b500 underline"><a class="hide_hyper" href="work.html" id="work_about">My work</a></span>
 			</div>
-		<script type="text/javascript">
+				<script type="text/javascript">
 		//Change words on about page
 		var divs = $('span[id^="content-"]').hide(),
 			i = 0;
 
-		(function cycle() {
-			divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
-			i = ++i % divs.length;
-			})();
+		Barba.Dispatcher.on(transitionCompleted, function(){ 
+			(function cycle() {
+				divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
+				i = ++i % divs.length;
+				})();
+		});
 		</script>
 		</div>
 	</div>
