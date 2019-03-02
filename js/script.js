@@ -14,7 +14,7 @@ var AboutMe = Barba.BaseView.extend({
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
 	i = 0;
-	divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400);
+	divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, loop);
 	i = ++i % divs.length;
 	},
 	onEnterCompleted: function() {
