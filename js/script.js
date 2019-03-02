@@ -8,27 +8,27 @@ $('.top_left').mouseout(function () {
 });
 
 var Homepage = Barba.BaseView.extend({
-  namespace: 'home',
-  onEnter: function() {
-      // The new Container is ready and attached to the DOM.
-  },
-  onEnterCompleted: function() {
-      // The Transition has just finished.
-      //Change words on about page
+	namespace: 'home',
+	onEnter: function() {
+	// The new Container is ready and attached to the DOM.
+	//Change words on about page
 	var divs = $('span[id^="content-"]').hide(),
-		i = 0;
+	i = 0;
 		
 	(function cycle() {
 		divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
 		i = ++i % divs.length;
 	})();
-  },
-  onLeave: function() {
-      // A new Transition toward a new page has just started.
-  },
-  onLeaveCompleted: function() {
-      // The Container has just been removed from the DOM.
-  }
+	},
+	onEnterCompleted: function() {
+	// The Transition has just finished.
+	},
+	onLeave: function() {
+	// A new Transition toward a new page has just started.
+	},
+	onLeaveCompleted: function() {
+	// The Container has just been removed from the DOM.
+	}
 });
 
 // Don't forget to init the view!
