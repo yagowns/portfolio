@@ -11,7 +11,6 @@ var Homepage = Barba.BaseView.extend({
 	namespace: 'home',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	$('#barba-wrapper').fadeIn(400);
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
@@ -30,6 +29,7 @@ var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
+	$('#barba-wrapper').fadeIn(400);
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
 	i = 0;
