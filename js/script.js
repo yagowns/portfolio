@@ -11,12 +11,13 @@ $('.top_left').mouseout(function () {
 var divs = $('span[id^="content-"]').hide(),
 	i = 0;
 
-	Barba.Dispatcher.on('initStateChange', function(){ 
+	Barba.Dispatcher.on('initStateChange', function(cycle){ 
+	});
 	(function cycle() {
 		divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
 		i = ++i % divs.length;
 	})();
-});
+
 
 //home and about circle showcase
 var showcaseArray = [
