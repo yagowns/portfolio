@@ -11,7 +11,7 @@ $('.top_left').mouseout(function () {
 var divs = $('span[id^="content-"]').hide(),
 	i = 0;
 
-$( window ).ready(function(){
+$().ready(function(){
 	(function cycle() {
 		divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
 		i = ++i % divs.length;
