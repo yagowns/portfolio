@@ -11,10 +11,12 @@ $('.top_left').mouseout(function () {
 var divs = $('span[id^="content-"]').hide(),
 	i = 0;
 
-$(document).ready(function cycle() {
-	divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
-	i = ++i % divs.length;
-})();
+$('document').ready(function(){
+	(function cycle() {
+		divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
+		i = ++i % divs.length;
+	})();
+});
 
 //home and about circle showcase
 var showcaseArray = [
