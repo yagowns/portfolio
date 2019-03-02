@@ -7,21 +7,32 @@ $('.top_left').mouseout(function () {
 	$('#yagomurakami').text('Ya Mu');
 });
 
-//Change words on about page
-var divs = $('span[id^="content-"]').hide(),
-	i = 0;
-
-function wordchange() {
+var Homepage = Barba.BaseView.extend({
+  namespace: 'home',
+  onEnter: function() {
+      // The new Container is ready and attached to the DOM.
+  },
+  onEnterCompleted: function() {
+      // The Transition has just finished.
+      //Change words on about page
+	var divs = $('span[id^="content-"]').hide(),
+		i = 0;
+		
 	(function cycle() {
 		divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
 		i = ++i % divs.length;
 	})();
-}
-
-Barba.Dispatcher.on('newPageReady', function(){ 
-	wordchange();
+  },
+  onLeave: function() {
+      // A new Transition toward a new page has just started.
+  },
+  onLeaveCompleted: function() {
+      // The Container has just been removed from the DOM.
+  }
 });
 
+// Don't forget to init the view!
+Homepage.init();
 
 //home and about circle showcase
 var showcaseArray = [
