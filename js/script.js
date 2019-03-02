@@ -18,7 +18,7 @@ function wordchange() {
 	})();
 }
 
-Barba.Dispatcher.on('transitionCompleted', function(){ 
+Barba.Dispatcher.on('newPageReady', function(){ 
 	wordchange();
 });
 
