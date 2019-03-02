@@ -14,7 +14,7 @@ var AboutMe = Barba.BaseView.extend({
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
 	i = 1;
-	divs.eq(i).animate({width:'toggle'},350,cycle).fadeIn(400).delay(2000).fadeOut(400);
+	divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400);
 	i = ++i % divs.length;
 	},
 	onEnterCompleted: function() {
@@ -178,3 +178,4 @@ $('#nike').hover(function () {
 $('document').ready(function(){
 	Barba.Pjax.start();
 })
+3
