@@ -7,16 +7,6 @@ $('.top_left').mouseout(function () {
 	$('#yagomurakami').text('Ya Mu');
 });
 
-//Change words on about page
-var divs = $('span[id^="content-"]').hide(),
-	i = 0;
-
-
-function cycle() {
-	divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400, cycle);
-	i = ++i % divs.length;
-}();
-
 //home and about circle showcase
 var showcaseArray = [
 	'img/1.png',
@@ -163,4 +153,4 @@ $('#nike').hover(function () {
 //animation//
 $('document').ready(function(){
 	Barba.Pjax.start();
-});
+})
