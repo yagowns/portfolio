@@ -11,7 +11,7 @@ var Homepage = Barba.BaseView.extend({
 	namespace: 'home',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	$('#barba-wrapper').fadeIn(400).delay(100);
+	$('#barba-wrapper').fadeIn(400);
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
