@@ -61,7 +61,6 @@ var showcaseArray = [
 $(document).ready(function(){
   $(document).mousemove(function(event){
     var prob = Math.random()* (20 - 1);
-    console.log(prob);
     var randomShowcase = showcaseArray[Math.floor(Math.random()*showcaseArray.length)];
     if (prob < 1) {
     	$('#showcase').removeClass('animate').addClass('animate');
