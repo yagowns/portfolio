@@ -193,5 +193,4 @@ $('#nike').hover(function () {
 //animation//
 $('document').ready(function(){
 	Barba.Pjax.start();
-})
-3
+});
