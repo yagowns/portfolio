@@ -415,11 +415,11 @@ body {
 }
 
 .vertical_centered_text {
-	top: 50%;
-	position: fixed;
-	z-index: 5;
-	transform: translateY(-50%) rotate(-90deg);
-	white-space: nowrap;
+	top: 50% !important;
+	position: fixed !important;
+	z-index: 5 !important;
+	transform: translateY(-50%) rotate(-90deg) !important;
+	white-space: nowrap !important;
 }
 
 .numbers {
