@@ -14,6 +14,7 @@ var Homepage = Barba.BaseView.extend({
 	$('.barba-container').addClass('animated fadeIn fast');
 	},
 	onEnterCompleted: function() {
+	$('.barba-container').removeClass('animated fadeIn fast');
 	// The Transition has just finished.
 	},
 	onLeave: function() {
@@ -21,6 +22,7 @@ var Homepage = Barba.BaseView.extend({
 	$('.barba-container').addClass('animated fadeOut slideOutRight fast');
 	},
 	onLeaveCompleted: function() {
+	$('.barba-container').removeClass('animated fadeOut slideOutRight fast');
 	// The Container has just been removed from the DOM.
 	}
 });
