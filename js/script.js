@@ -13,8 +13,8 @@ var Homepage = Barba.BaseView.extend({
 	// The new Container is ready and attached to the DOM.
 	$('.middle_top').addClass('animated fadeInDown');
 	$('.middle_bottom').addClass('animated fadeInUp');
-	$('#aboutmehomebtn').addClass('animated fadeInDown');
-	$('#workhomebtn').addClass('animated fadeInDown');
+	$('#aboutmehomebtn').addClass('fadeInLeft');
+	$('#workhomebtn').addClass('fadeInRight');
 	$('.barba-container').addClass('animated fadeIn');
 	},
 	onEnterCompleted: function() {
