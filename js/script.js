@@ -11,6 +11,7 @@ var Homepage = Barba.BaseView.extend({
 	namespace: 'home',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
+	$('#barba-wrapper').element.classList.add('animated', 'bounceOutLeft');
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
