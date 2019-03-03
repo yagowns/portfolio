@@ -11,10 +11,10 @@ var Homepage = Barba.BaseView.extend({
 	namespace: 'home',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	$('#barba-wrapper').addClass('animated', 'fadeIn', 'fast');
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
+	$('#barba-wrapper').addClass('animated', 'fadeIn', 'fast');
 	},
 	onLeave: function() {
 	// A new Transition toward a new page has just started.
