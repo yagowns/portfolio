@@ -17,6 +17,7 @@ var Homepage = Barba.BaseView.extend({
 	},
 	onLeave: function() {
 	// A new Transition toward a new page has just started.
+	$('#barba-wrapper').animate({left: '+='+sliderWidth}, 500);
 	},
 	onLeaveCompleted: function() {
 	// The Container has just been removed from the DOM.
@@ -29,7 +30,7 @@ var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	$('#barba-wrapper').animate({opacity: 'toggle', height: 'toggle'}, 400, 'swing', 400);
+	$('#barba-wrapper').animate({left: '=+'+sliderWidth}, 500);
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
 	i = 0;
