@@ -14,15 +14,14 @@ var Homepage = Barba.BaseView.extend({
 	$('.barba-container').addClass('animated fadeIn fast');
 	},
 	onEnterCompleted: function() {
-	$('.barba-container').removeClass('animated fadeIn fast');
 	// The Transition has just finished.
 	},
 	onLeave: function() {
 	// A new Transition toward a new page has just started.
+	$('.barba-container').removeClass('animated fadeIn fast');
 	$('.barba-container').addClass('animated fadeOut slideOutRight fast');
 	},
 	onLeaveCompleted: function() {
-	$('.barba-container').removeClass('animated fadeOut slideOutRight fast');
 	// The Container has just been removed from the DOM.
 	}
 });
@@ -33,7 +32,8 @@ var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	
+	$('.barba-container').removeClass('animated fadeOut slideOutRight fast');
+	$('.barba-container').addClass('animated fadeIn slideIntRight fast');
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
 	i = 0;
