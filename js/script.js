@@ -29,7 +29,7 @@ var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	$('#barba-wrapper').fadeIn(400);
+	$(document).animate({opacity: 'toggle', height: 'toggle'}, 400, 'easeInOutQuart', 400);
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
 	i = 0;
