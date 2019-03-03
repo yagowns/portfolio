@@ -45,6 +45,8 @@ var AboutMe = Barba.BaseView.extend({
 	},
 	onLeave: function() {
 	// A new Transition toward a new page has just started.
+	$('.barba-container').removeClass('animated fadeIn');
+	$('.barba-container').addClass('animated  fadeOut');
 	},
 	onLeaveCompleted: function() {
 	// The Container has just been removed from the DOM.
