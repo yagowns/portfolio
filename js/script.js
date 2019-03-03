@@ -14,7 +14,7 @@ var Homepage = Barba.BaseView.extend({
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
-	$('#barba-wrapper').addClass('animated', 'fadeIn', 'fast');
+	$('#barba-wrapper').addClass('animated fadeIn fast');
 	},
 	onLeave: function() {
 	// A new Transition toward a new page has just started.
