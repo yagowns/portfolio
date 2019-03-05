@@ -88,7 +88,7 @@ var Work = Barba.BaseView.extend({
 	});
 	//hover change image for the portfolio showcase
 	$('#one, #two, #three, #four, #five').hover(function () {
-		$('.empty_right').addClass('animated fadeInRight');
+		$('.empty_right').addClass('animated fadeInRight faster');
 	});
 	$('#one').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'});
