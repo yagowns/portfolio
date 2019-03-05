@@ -5,30 +5,16 @@ html {
 body {
 	margin: 0px;
 	overflow-x: hidden;
-	cursor: url("pointer.svg") 7 7, auto;
+	cursor: url("pointer.svg") 40 40, auto;
 }
 
-svg {
-	mix-blend-mode: difference;
+a {
+	cursor: url("click.svg") 40 40, auto;	
 }
 
 .groupup {
 	position: fixed;
 }
-
-#about_home, #about_work {
-	cursor: url(), auto;
-}
-
-#home_about, #work_about, #work_home, #one, #two, #three, #four, #five {
-	cursor: url(), auto;
-}
-
-#work_down {
-	cursor: url(''), auto;
-}
-
-
 
 .hide_hyper {
 	color: inherit;
@@ -189,7 +175,6 @@ svg {
 	height: 400px;
 	border-radius: 50%;
 	overflow: hidden;
-	cursor: url("move.svg") 40 40, auto;
 }
 
 .img_resp_center {
