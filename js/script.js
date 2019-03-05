@@ -87,29 +87,32 @@ var Work = Barba.BaseView.extend({
 	$('#yagomurakami').text('Ya Mu');
 	});
 	//hover change image for the portfolio showcase
+	$('#one, #two, #three, #four, #five').hover(function () {
+		$('.empty_right').addClass('animated fadeInRight');
+	});
 	$('#one').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'});
-		$('.empty_right').addClass('animated fadeInRight');
+		$('.empty_right').addClass('animated fadeIn fast');
 	});
 
 	$('#two').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/purge2.gif")'});
-		$('.empty_right').addClass('animated fadeInRight');
+		$('.empty_right').addClass('animated fadeIn fast');
 	});
 
 	$('#three').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeInRight');
+		$('.empty_right').addClass('animated fadeIn fast');
 	});
 
 	$('#four').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeInRight');
+		$('.empty_right').addClass('animated fadeIn fast');
 	});
 
 	$('#five').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeInRight');
+		$('.empty_right').addClass('animated fadeIn fast');
 	});
 
 	//hover change for client logos
