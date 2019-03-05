@@ -31,10 +31,11 @@ var AboutMe = Barba.BaseView.extend({
 	$('.barba-container').addClass('animated fadeIn');
 	$('.top_left').addClass('animated fadeInDown');
 	$('#home_about').addClass('animated fadeIn slow');
-	$('#first').addClass('animated fadeIn');
-	$('#second').addClass('animated fadeIn stepone');
-	$('#third').addClass('animated fadeIn slow');
-	$('#fourth').addClass('animated fadeIn steptwo');
+	$('#work_about').addClass('animated fadeIn slow');
+	$('#first').addClass('animated fadeInDown');
+	$('#second').addClass('animated fadeInDown stepone');
+	$('#third').addClass('animated fadeInDown slow');
+	$('#fourth').addClass('animated fadeInDown steptwo');
 	//Expanding Logo
 	$('.top_left').mouseover(function () {
 	$('#yagomurakami').text('Yago Murakami');
