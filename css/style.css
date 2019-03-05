@@ -5,7 +5,7 @@ html {
 body {
 	margin: 0px;
 	overflow-x: hidden;
-	cursor: url("pointer.png") 7 7, auto;
+	cursor: url("pointer.svg") 7 7, auto;
 }
 
 svg {
