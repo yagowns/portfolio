@@ -87,24 +87,20 @@ var Work = Barba.BaseView.extend({
 	$('#yagomurakami').text('Ya Mu');
 	});
 	//hover change image for the portfolio showcase
-	$('#one, #two, #three, #four, #five').hover(function () {
-		$('.empty_right').addClass('animated fadeInRight faster');
-	});
 	$('#one').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'}).addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'}).addClass('animated fadeIn fast delay-150ms');
 	});
 	$('#two').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/purge2.gif")'}).addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/purge2.gif")'}).addClass('animated fadeIn fast delay-150ms');
 	});
-
 	$('#three').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-150ms');
 	});
 	$('#four').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-150ms');
 	});
 	$('#five').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-150ms');
 	});
 	//hover change for client logos
 	$('#aerosoles').hover(function () {
