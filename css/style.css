@@ -8,6 +8,10 @@ body {
 	cursor: url("pointer.png") 7 7, auto;
 }
 
+svg {
+	mix-blend-mode: difference;
+}
+
 .groupup {
 	position: fixed;
 }
@@ -23,6 +27,8 @@ body {
 #work_down {
 	cursor: url(''), auto;
 }
+
+
 
 .hide_hyper {
 	color: inherit;
