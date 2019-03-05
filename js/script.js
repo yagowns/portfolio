@@ -11,6 +11,7 @@ var Homepage = Barba.BaseView.extend({
 	namespace: 'home',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
+	$('body').css('background-color', '#ffffff');
 	$('.middle_top').addClass('animated fadeInDown');
 	$('.middle_bottom').addClass('animated fadeInUp');
 	$('#aboutmehomebtn').addClass('animated fadeIn slow');
