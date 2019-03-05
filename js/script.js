@@ -91,30 +91,21 @@ var Work = Barba.BaseView.extend({
 		$('.empty_right').addClass('animated fadeInRight faster');
 	});
 	$('#one').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'});
-		$('.empty_right').addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'}).addClass('animated fadeIn fast delay-1s');
 	});
-
 	$('#two').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/purge2.gif")'});
-		$('.empty_right').addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/purge2.gif")'}).addClass('animated fadeIn fast delay-1s');
 	});
 
 	$('#three').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-1s');
 	});
-
 	$('#four').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-1s');
 	});
-
 	$('#five').hover(function () {
-		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeIn fast delay-1s');
+		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'}).addClass('animated fadeIn fast delay-1s');
 	});
-
 	//hover change for client logos
 	$('#aerosoles').hover(function () {
 		$('.logos_rec').css({'background-image': 'url("img/aerosoles.png")'});
