@@ -35,7 +35,7 @@ var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	$('body').css('background-color,' '#000000');
+	$('body').css('background-color', '#000000');
 	$('.barba-container').addClass('animated fadeIn');
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
