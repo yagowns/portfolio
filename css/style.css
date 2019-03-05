@@ -421,3 +421,10 @@ a {
 .popup {
 	display: none;
 }
+
+.showcase_img {
+	height: 100vh;
+	position: fixed;
+	overflow: hidden;
+	display: none;
+}
