@@ -38,6 +38,7 @@ var AboutMe = Barba.BaseView.extend({
 	// The new Container is ready and attached to the DOM.
 	$('body').css('background-color', '#000000');
 	$('.barba-container').addClass('animated fadeIn');
+	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
 	},
