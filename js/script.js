@@ -79,11 +79,12 @@ var Work = Barba.BaseView.extend({
 	$('.top_left').addClass('animated fadeInDown');
 	$('#work_about').addClass('animated fadeIn slow');
 	$('.section').addClass('animated fadeIn stepone');
-	$('#one').addClass('animated fadeInLeft');
-	$('#two').addClass('animated fadeInLeft stepone');
-	$('#three').addClass('animated fadeInLeft slow');
-	$('#four').addClass('animated fadeInLeft steptwo');
-	$('#five').addClass('animated fadeInLeft slower');
+	$('.white_left').addClass('animated SlideInLeft faster');
+	$('#one').addClass('animated fadeIn');
+	$('#two').addClass('animated fadeIn stepone');
+	$('#three').addClass('animated fadeIn slow');
+	$('#four').addClass('animated fadeIn steptwo');
+	$('#five').addClass('animated fadeIn slower');
 	//Expanding Logo
 	$('.top_left').mouseover(function () {
 	$('#yagomurakami').text('Yago Murakami');
