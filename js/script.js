@@ -198,7 +198,7 @@ var showcaseArray = [
 
 $(document).ready(function(){
   $(document).mousemove(function(event){
-    var prob = Math.random()* (20 - 1);
+    var prob = Math.random()* (15 - 1);
     var randomShowcase = showcaseArray[Math.floor(Math.random()*showcaseArray.length)];
     if (prob < 1) {
     	$('#showcase').removeClass('animate').addClass('animate');
