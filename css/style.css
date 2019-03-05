@@ -82,15 +82,6 @@ body {
 	background-color: #ffffff;
 }
 
-#content-0 {
-	position: absolute;
-}
-
-#content-1, #content-2, #content-3, #content-4 {
-	position: absolute;
-	display: none;
-}
-
 .yellow_left {
 	position: fixed;
 	background-color: #ffd700;
