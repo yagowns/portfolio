@@ -170,6 +170,13 @@ a {
 	left: 50%;
 }
 
+.circle_home {
+	width: 700px;
+	height: 700px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
 .circle {
 	width: 400px;
 	height: 400px;
