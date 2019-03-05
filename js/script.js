@@ -13,10 +13,8 @@ var Homepage = Barba.BaseView.extend({
 	//Let's Talk
 	$('#email').mouseover(function () {
 	$('.popup').css('display', 'visible');
-	$('.popup').addClass('animated fadeIn');
 	});
 	$('.top_left').mouseout(function () {
-	$('.popup').addClass('animated fadeOut');
 	$('.popup').css('display', 'none');
 	});
 	},
