@@ -419,5 +419,5 @@ a {
 }
 
 .popup {
-	display: none;
+	visibility: hidden;
 }
