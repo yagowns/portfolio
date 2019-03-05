@@ -14,7 +14,7 @@ var Homepage = Barba.BaseView.extend({
 	$('#email').mouseover(function () {
 	$('.popup').css('display', 'inline');
 	});
-	$('.top_left').mouseout(function () {
+	$('#email').mouseout(function () {
 	$('.popup').css('display', 'none');
 	});
 	},
