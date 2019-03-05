@@ -89,18 +89,23 @@ var Work = Barba.BaseView.extend({
 	//hover change image for the portfolio showcase
 	$('#one').hover(function () {
 		$('#project_one').css({'display': 'inline'}).addClass('animated fadeIn fast delay-150ms');
+		$('#project_two, #project_three, #project_four, #project_five').css({'display': 'none'}).removeClass('animated fadeIn fast delay-150ms');
 	});
 	$('#two').hover(function () {
 		$('#project_two').css({'display': 'inline'}).addClass('animated fadeIn fast delay-150ms');
+		$('#project_two, #project_three, #project_four, #project_five').css({'display': 'none'}).removeClass('animated fadeIn fast delay-150ms');
 	});
 	$('#three').hover(function () {
 		$('#project_three').css({'display': 'inline'}).addClass('animated fadeIn fast delay-150ms');
+		$('#project_two, #project_three, #project_four, #project_five').css({'display': 'none'}).removeClass('animated fadeIn fast delay-150ms');
 	});
 	$('#four').hover(function () {
 		$('#project_four').css({'display': 'inline'}).addClass('animated fadeIn fast delay-150ms');
+		$('#project_two, #project_three, #project_four, #project_five').css({'display': 'none'}).removeClass('animated fadeIn fast delay-150ms');
 	});
 	$('#five').hover(function () {
 		$('#project_five').css({'display': 'inline'}).addClass('animated fadeIn fast delay-150ms');
+		$('#project_two, #project_three, #project_four, #project_five').css({'display': 'none'}).removeClass('animated fadeIn fast delay-150ms');
 	});
 	//hover change for client logos
 	$('#aerosoles').hover(function () {
