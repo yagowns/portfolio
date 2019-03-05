@@ -92,27 +92,27 @@ var Work = Barba.BaseView.extend({
 	});
 	$('#one').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'});
-		$('.empty_right').addClass('animated fadeIn fast');
+		$('.empty_right').addClass('animated fadeIn fast delay');
 	});
 
 	$('#two').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/purge2.gif")'});
-		$('.empty_right').addClass('animated fadeIn fast');
+		$('.empty_right').addClass('animated fadeIn fast delay');
 	});
 
 	$('#three').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeIn fast');
+		$('.empty_right').addClass('animated fadeIn fast delay');
 	});
 
 	$('#four').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeIn fast');
+		$('.empty_right').addClass('animated fadeIn fast delay');
 	});
 
 	$('#five').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
-		$('.empty_right').addClass('animated fadeIn fast');
+		$('.empty_right').addClass('animated fadeIn fast delay');
 	});
 
 	//hover change for client logos
