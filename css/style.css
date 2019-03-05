@@ -183,7 +183,7 @@ body {
 	height: 400px;
 	border-radius: 50%;
 	overflow: hidden;
-	cursor: url("move.png") 40 40, auto;
+	cursor: url("move.svg") 40 40, auto;
 }
 
 .img_resp_center {
