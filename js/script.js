@@ -13,6 +13,8 @@ var Homepage = Barba.BaseView.extend({
 	// The new Container is ready and attached to the DOM.
 	$('.middle_top').addClass('animated fadeInDown');
 	$('.middle_bottom').addClass('animated fadeInUp');
+	$('#aboutmehomebtn').addClass('animated fadeIn slow');
+	$('#workhomebtn').addClass('animated fadeIn slow');
 	$('.barba-container').addClass('animated fadeIn');
 	},
 	onEnterCompleted: function() {
@@ -33,6 +35,7 @@ var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
+	$('body').css('background-color,' '#000000');
 	$('.barba-container').addClass('animated fadeIn');
 	//Change words on about page
 	var divs = $('span[id^="content-"]').hide();
