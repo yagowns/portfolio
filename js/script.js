@@ -3,7 +3,7 @@ var Homepage = Barba.BaseView.extend({
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
 	$('body').css('background-color', '#ffffff');
-	$('.barba-container').addClass('animated fadeIn delay-300ms');
+	$('.barba-container').addClass('animated fadeIn delay-150ms');
 	$('.middle_top').addClass('animated fadeInDown');
 	$('.middle_bottom').addClass('animated fadeInUp');
 	$('#aboutmehomebtn').addClass('animated fadeIn slow');
@@ -37,7 +37,7 @@ var AboutMe = Barba.BaseView.extend({
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
 	$('body').css('background-color', '#000000');
-	$('.barba-container').addClass('animated fadeIn delay-300ms');
+	$('.barba-container').addClass('animated fadeIn delay-150ms');
 	$('.top_left').addClass('animated fadeInDown');
 	$('#home_about').addClass('animated fadeIn slow');
 	$('#work_about').addClass('animated fadeIn slow');
@@ -75,7 +75,7 @@ var Work = Barba.BaseView.extend({
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
 	$('body').css('background-color', '#ffffff');
-	$('.barba-container').addClass('animated fadeIn delay-300ms');
+	$('.barba-container').addClass('animated fadeIn delay-150ms');
 	$('.top_left').addClass('animated fadeInDown');
 	$('#work_about').addClass('animated fadeIn slow');
 	$('.section').addClass('animated fadeIn stepone');
