@@ -1,12 +1,3 @@
-//Expanding Logo
-$('.top_left').mouseover(function () {
-	$('#yagomurakami').text('Yago Murakami');
-});
-
-$('.top_left').mouseout(function () {
-	$('#yagomurakami').text('Ya Mu');
-});
-
 var Homepage = Barba.BaseView.extend({
 	namespace: 'home',
 	onEnter: function() {
@@ -38,6 +29,13 @@ var AboutMe = Barba.BaseView.extend({
 	// The new Container is ready and attached to the DOM.
 	$('body').css('background-color', '#000000');
 	$('.barba-container').addClass('animated fadeIn');
+	//Expanding Logo
+	$('.top_left').mouseover(function () {
+	$('#yagomurakami').text('Yago Murakami');
+	});
+	$('.top_left').mouseout(function () {
+	$('#yagomurakami').text('Ya Mu');
+	});
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
