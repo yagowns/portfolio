@@ -5,7 +5,7 @@ html {
 body {
 	margin: 0px;
 	overflow-x: hidden;
-	cursor: url('pointer.png'), 7 7, auto;
+	cursor: url("pointer.png"), 7 7, auto;
 }
 
 .groupup {
@@ -183,7 +183,7 @@ body {
 	height: 400px;
 	border-radius: 50%;
 	overflow: hidden;
-	cursor: url('move.png'), 40 40, auto;
+	cursor: url("move.png"), 40 40, auto;
 }
 
 .img_resp_center {
