@@ -38,12 +38,6 @@ var AboutMe = Barba.BaseView.extend({
 	// The new Container is ready and attached to the DOM.
 	$('body').css('background-color', '#000000');
 	$('.barba-container').addClass('animated fadeIn');
-	//Change words on about page
-	var divs = $('span[id^="content-"]').hide();
-	i = 0;
-	divs.eq(i).animate({width:'toggle'},350).fadeIn(400).delay(2000).fadeOut(400);
-	i = ++i % divs.length;
-	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
 	},
