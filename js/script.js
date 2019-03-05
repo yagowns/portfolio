@@ -89,22 +89,27 @@ var Work = Barba.BaseView.extend({
 	//hover change image for the portfolio showcase
 	$('#one').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'});
+		$('.top_left').addClass('animated fadeInRight');
 	});
 
 	$('#two').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/purge2.gif")'});
+		$('.top_left').addClass('animated fadeInRight');
 	});
 
 	$('#three').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
+		$('.top_left').addClass('animated fadeInRight');
 	});
 
 	$('#four').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
+		$('.top_left').addClass('animated fadeInRight');
 	});
 
 	$('#five').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash.png")'});
+		$('.top_left').addClass('animated fadeInRight');
 	});
 
 	//hover change for client logos
