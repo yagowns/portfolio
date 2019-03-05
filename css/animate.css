@@ -3613,6 +3613,21 @@
   animation-duration: 3s;
 }
 
+.animated.stepone {
+  -webkit-animation-duration: 1500ms;
+  animation-duration: 1500ms;
+}
+
+.animated.steptwo {
+  -webkit-animation-duration: 2500ms;
+  animation-duration: 2500ms;
+}
+
+.animated.stepthree {
+  -webkit-animation-duration: 3500ms;
+  animation-duration: 3500ms;
+}
+
 @media (print), (prefers-reduced-motion) {
   .animated {
     -webkit-animation: unset !important;
