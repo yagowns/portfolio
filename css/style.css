@@ -5,6 +5,7 @@ html {
 body {
 	margin: 0px;
 	overflow-x: hidden;
+	cursor: url(''), auto;
 }
 
 .groupup {
@@ -12,7 +13,7 @@ body {
 }
 
 #about_home, #about_work {
-	cursor: url(), auto;
+	cursor: url('pointer.png'), 7 7, auto;
 }
 
 #home_about, #work_about, #work_home, #one, #two, #three, #four, #five {
