@@ -12,10 +12,10 @@ var Homepage = Barba.BaseView.extend({
 	$('.circle_home').addClass('animated increase_circle fast');
 	//Let's Talk
 	$('#email').mouseover(function () {
-	$('.popup').css('visibility', 'visible');
+	$('.popup').css('display', 'inline');
 	});
 	$('.top_left').mouseout(function () {
-	$('.popup').css('visibility', 'hidden');
+	$('.popup').css('display', 'hidden');
 	});
 	},
 	onEnterCompleted: function() {
