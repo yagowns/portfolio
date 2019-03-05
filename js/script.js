@@ -39,13 +39,9 @@ var AboutMe = Barba.BaseView.extend({
 	$('.waitlast').addClass('animated fadeIn slower');
 	//Expanding Logo
 	$('.top_left').mouseover(function () {
-	$('#yagomurakami').removeClass('animated fadeOut fast');
-	$('#yagomurakami').addClass('animated fadeIn fast');
 	$('#yagomurakami').text('Yago Murakami');
 	});
 	$('.top_left').mouseout(function () {
-	$('#yagomurakami').removeClass('animated fadeIn fast');
-	$('#yagomurakami').addClass('animated fadeOut fast');
 	$('#yagomurakami').text('Ya Mu');
 	});
 	},
