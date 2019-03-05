@@ -55,6 +55,13 @@ var Work = Barba.BaseView.extend({
 	namespace: 'work',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
+	//Expanding Logo
+	$('.top_left').mouseover(function () {
+	$('#yagomurakami').text('Yago Murakami');
+	});
+	$('.top_left').mouseout(function () {
+	$('#yagomurakami').text('Ya Mu');
+	});
 	//hover change image for the portfolio showcase
 	$('#one').hover(function () {
 		$('.empty_right').css({'background-image': 'url("img/alivecash2.gif")'});
