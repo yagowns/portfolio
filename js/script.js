@@ -8,6 +8,7 @@ var Homepage = Barba.BaseView.extend({
 	$('#aboutmehomebtn').addClass('animated fadeIn slow');
 	$('#workhomebtn').addClass('animated fadeIn slow');
 	$('.barba-container').addClass('animated fadeIn');
+	//Increase circle
 	$('.circle_home').addClass('animated increase_circle');
 	},
 	onEnterCompleted: function() {
@@ -39,7 +40,7 @@ var AboutMe = Barba.BaseView.extend({
 	$('#fourth').addClass('animated fadeIn steptwo');
 	$('.waitlast').addClass('animated fadeIn slower');
 	//Shrink Circle
-	$('.circle_home').addClass('animated shrink_circle');
+	$('.circle').addClass('animated shrink_circle');
 	//Expanding Logo
 	$('.top_left').mouseover(function () {
 	$('#yagomurakami').text('Yago Murakami');
