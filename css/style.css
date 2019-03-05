@@ -38,7 +38,6 @@ a {
 	width: 50vw;
 	float: left;
 	display: inline-flex;
-
 }
 
 .other_work {
@@ -417,4 +416,8 @@ a {
 
 #one:hover + span, #two:hover + span, #three:hover + span, #four:hover + span, #five:hover + span {
 	color: #0000ff;
+}
+
+.popup {
+	display: none;
 }
