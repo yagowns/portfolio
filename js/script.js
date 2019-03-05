@@ -79,7 +79,7 @@ var Work = Barba.BaseView.extend({
 	$('.top_left').addClass('animated fadeInDown');
 	$('#work_about').addClass('animated fadeIn slow');
 	$('.section').addClass('animated fadeIn stepone');
-	$('.white_left').addClass('animated slideInLeft faster');
+	$('.white_left').addClass('animated slideInLeft fast');
 	$('#one').addClass('animated fadeIn');
 	$('#two').addClass('animated fadeIn stepone');
 	$('#three').addClass('animated fadeIn slow');
