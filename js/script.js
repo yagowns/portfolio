@@ -193,12 +193,16 @@ Work.init();
 
 //home and about circle showcase
 var showcaseArray = [
+	'img/0.gif',
 	'img/1.png',
 	'img/2.png',
 	'img/3.png',
 	'img/4.png',
 	'img/5.png',
-	'img/6.jpg',
+	'img/6.png',
+	'img/7.jpg',
+	'img/8.jpg',
+	'img/9.jpg',
 ];
 
 $(document).ready(function(){
