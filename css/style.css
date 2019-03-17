@@ -436,38 +436,30 @@ a {
 .portf_group {
 	display: none;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 	margin: 150px 300px 0px 300px;
 }
 
 .first_col {
 	width: 100%;
 	float: left;
-	position: fixed;
-	z-index: 2;
 }
 
 .second_col {
 	width: 30%;
 	float: left;
 	margin-right: 30px;
-	position: fixed;
-	z-index: 2;
 }
 
 .third_col {
 	width: 30%;
 	float: left;
 	margin-right: 30px;
-	position: fixed;
-	z-index: 2;
 }
 
 .fourth_col {
 	width: 30%;
 	float: left;
-	position: fixed;
-	z-index: 2;
 }
 
 .map_circle {
