@@ -55,6 +55,12 @@ var AboutMe = Barba.BaseView.extend({
 	$('.top_left').mouseout(function () {
 	$('#yagomurakami').text('Ya Mu');
 	});
+	$('#screen_portf').click(function() {
+	$('.left_holder, .right_holder, .center_center').addClass('animated fadeOut faster delay-150ms');
+	$('.portf_group').css({'display': 'inline'});
+	$('.black_left').css({'background-color': '#ffd700'}).addClass('animated fadeIn faster delay-150ms');
+	$('.r40y500, .r40w500').css({'color': '#000000'}).addClass('animated fadeIn faster delay-150ms');
+	});
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
@@ -239,11 +245,4 @@ $(document).ready(function() {
 //animation//
 $('document').ready(function(){
 	Barba.Pjax.start();
-});
-
-$('#screen_portf').click(function() {
-	$('.left_holder, .right_holder, .center_center').addClass('animated fadeOut faster delay-150ms');
-	$('.portf_group').css({'display': 'inline'});
-	$('.black_left').css({'background-color': '#ffd700'}).addClass('animated fadeIn faster delay-150ms');
-	$('.r40y500, .r40w500').css({'color': '#000000'}).addClass('animated fadeIn faster delay-150ms');
 });
