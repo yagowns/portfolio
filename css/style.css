@@ -464,10 +464,10 @@ a {
 
 .map_circle {
 	position: fixed;
-	z-index: 1;
+	z-index: 0;
 	transform: translate(-50%, -50%);
 	top: 120px;
-	left: 50%;
+	left: 35%;
 }
 
 .map_circle_pos {
