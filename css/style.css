@@ -443,28 +443,36 @@ a {
 .first_col {
 	width: 100%;
 	float: left;
+	position: fixed;
+	z-index: 2;
 }
 
 .second_col {
 	width: 30%;
 	float: left;
 	margin-right: 30px;
+	position: fixed;
+	z-index: 2;
 }
 
 .third_col {
 	width: 30%;
 	float: left;
 	margin-right: 30px;
+	position: fixed;
+	z-index: 2;
 }
 
 .fourth_col {
 	width: 30%;
 	float: left;
+	position: fixed;
+	z-index: 2;
 }
 
 .map_circle {
 	position: fixed;
-	z-index: 3;
+	z-index: 1;
 	transform: translate(-50%, -50%);
 	top: 100px;
 	left: 70%;
