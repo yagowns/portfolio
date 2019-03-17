@@ -135,6 +135,9 @@ var Work = Barba.BaseView.extend({
 	$('#bayou').hover(function () {
 		$('.logos_rec').css({'background-image': 'url("img/bayou.png")'});
 	});
+	$('#adegavelha').hover(function () {
+		$('.logos_rec').css({'background-image': 'url("img/adegavelha.png")'});
+	});
 	$('#fiuza').hover(function () {
 		$('.logos_rec').css({'background-image': 'url("img/fiuza.png")'});
 	});
