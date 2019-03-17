@@ -58,6 +58,14 @@ var AboutMe = Barba.BaseView.extend({
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
+	$('.top_left').removeClass('animated fadeInDown');
+	$('#home_about').removeClass('animated fadeIn slow');
+	$('#work_about').removeClass('animated fadeIn slow');
+	$('#first').removeClass('animated fadeIn');
+	$('#second').removeClass('animated fadeIn stepone');
+	$('#third').removeClass('animated fadeIn slow');
+	$('#fourth').removeClass('animated fadeIn steptwo');
+	$('.waitlast').removeClass('animated fadeIn slower');
 	},
 	onLeave: function() {
 	// A new Transition toward a new page has just started.
@@ -231,4 +239,11 @@ $(document).ready(function() {
 //animation//
 $('document').ready(function(){
 	Barba.Pjax.start();
+});
+
+$('#screen_portf').click(function() {
+	$('.left_holder, .right_holder, .center_center').addClass('animated fadeOut faster delay-150ms');
+	$('.portf_group').css({'display': 'inline'});
+	$('.black_left').css({'background-color': '#ffd700'}).addClass('animated fadeIn faster delay-150ms');
+	$('.r40y500, .r40w500').css({'color': '#000000'}).addClass('animated fadeIn faster delay-150ms');
 });

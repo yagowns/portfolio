@@ -4,12 +4,16 @@ html {
 
 body {
 	margin: 0px;
-	overflow-x: hidden;
+	
 	cursor: url("pointer.svg") 40 40, auto;
 }
 
 a {
 	cursor: url("click.svg") 40 40, auto;	
+}
+
+.divider {
+	border-bottom: 1px solid #000000;
 }
 
 .groupup {
@@ -427,4 +431,33 @@ a {
 	position: fixed;
 	overflow: hidden;
 	display: none;
+}
+
+.portf_group {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	margin: 150px 300px 0px 300px;
+}
+
+.first_col {
+	width: 100%;
+	float: left;
+}
+
+.second_col {
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+}
+
+.third_col {
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+}
+
+.fourth_col {
+	width: 30%;
+	float: left;
 }
