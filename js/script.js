@@ -65,7 +65,7 @@ var AboutMe = Barba.BaseView.extend({
 		$('.map_circle').css({'display': 'flex'});
 	});
 	$('.map').mouseout(function() {
-		$('.map_circle').css({'display': 'hidden'});
+		$('.map_circle').css({'display': 'none'});
 	});
 	},
 	onEnterCompleted: function() {
