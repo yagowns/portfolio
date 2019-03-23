@@ -4,7 +4,7 @@ html {
 
 body {
 	margin: 0px;
-	
+	overflow-X: hidden;
 	cursor: url("pointer.svg") 40 40, auto;
 }
 
