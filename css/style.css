@@ -6,6 +6,7 @@ body {
 	margin: 0px;
 	overflow-X: hidden;
 	cursor: url("pointer.svg") 40 40, auto;
+}
 
 a {
 	cursor: url("click.svg") 40 40, auto;	
@@ -475,6 +476,7 @@ a {
 	transform: translate(-50%, -50%);
 	top: 120px;
 	left: 45%;
+	display: none;
 }
 
 .map_circle_pos {
