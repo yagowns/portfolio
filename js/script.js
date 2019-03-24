@@ -94,6 +94,7 @@ var Work = Barba.BaseView.extend({
 	namespace: 'work',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
+	$('#barba-wrapper').removeClass("groupup");
 	$('body').css('background-color', '#ffffff');
 	$('.barba-container').addClass('animated fadeIn delay-150ms');
 	$('.top_left').addClass('animated fadeInDown');
