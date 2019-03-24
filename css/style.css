@@ -4,7 +4,7 @@ html {
 
 body {
 	margin: 0px;
-	overflow-X: hidden;
+	overflow-x: hidden;
 	cursor: url("pointer.svg") 40 40, auto;
 }
 
@@ -404,6 +404,10 @@ a {
 	margin-top: 50px;
 }
 
+.space50down {
+	margin-bottom: 50px;
+}
+
 .vertical_centered_text {
 	top: 50%;
 	position: fixed;
@@ -484,4 +488,79 @@ a {
 	height: 400px;
 	border-radius: 50%;
 	overflow: hidden;
+}
+
+.content {
+	margin-left: 170px;
+}
+
+.fullsize {
+	width: 100%;
+	float: left;
+}
+
+.first_third {
+	width: 30%;
+	float: left;
+	margin-right: 60px;
+}
+
+.second_third {
+	width: 30%;
+	float: left;
+	margin-right: 60px;
+}
+
+.third_third {
+	width: 30%;
+	float: left;
+}
+
+.first_half {
+	width: 45%;
+	float: left;
+	margin-right: 60px;
+}
+
+.second_half {
+	width: 45%;
+	float: left;
+}
+
+.header_img {
+	height: 50vh;
+	width: 100%;
+	object-fit: cover;
+}
+
+.crop320 {
+	height: 320px;
+	width: 140%;
+	object-fit: cover;
+	object-position: top;
+}
+
+.crop450 {
+	height: 450px;
+	width: 140%;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+.row {
+	display: table;
+	clear: both;
+}
+
+.quote {
+	font-style: italic;
+	margin: 0px 25px 0px 25px;
+}
+
+.bullet {
+	margin: 0px 0px 0px 25px;
+}
+
+.italic {
+	font-style: italic;
 }
