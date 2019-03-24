@@ -214,6 +214,36 @@ var Work = Barba.BaseView.extend({
 // Don't forget to init the view!
 Work.init();
 
+var Projects = Barba.BaseView.extend({
+	namespace: 'projects',
+	onEnter: function() {
+	// The new Container is ready and attached to the DOM.
+	$('body').css('background-color', '#ffffff');
+	$('.barba-container').addClass('animated fadeIn delay-150ms');
+	$('.top_left').addClass('animated fadeInDown');
+	$('#work_about').addClass('animated fadeIn slow');
+	$('.section').addClass('animated fadeIn stepone');
+	//Expanding Logo
+	$('.top_left').mouseover(function () {
+	$('#yagomurakami').text('Yago Murakami');
+	});
+	$('.top_left').mouseout(function () {
+	$('#yagomurakami').text('Ya Mu');
+	});
+	},
+	onEnterCompleted: function() {
+	// The Transition has just finished.
+	},
+	onLeave: function() {
+	// A new Transition toward a new page has just started.
+	},
+	onLeaveCompleted: function() {
+	// The Container has just been removed from the DOM.
+	}
+});
+// Don't forget to init the view!
+Projects.init();
+
 //home and about circle showcase
 var showcaseArray = [
 	'img/0.gif',
