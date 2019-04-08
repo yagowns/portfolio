@@ -234,12 +234,6 @@ var Projects = Barba.BaseView.extend({
 	},
 	onEnterCompleted: function() {
 	// The Transition has just finished.
-	var audio2 = document.getElementById("emails");
-	audio2.volume = 0.3;
-	audio2.autoplay = false;
-	var audio3 = document.getElementById("password");
-	audio3.volume = 0.3;
-	audio3.autoplay = false;
 	},
 	onLeave: function() {
 	// A new Transition toward a new page has just started.
@@ -266,6 +260,7 @@ var showcaseArray = [
 	'img/10.png',
 	'img/11.png',
 	'img/12.jpg',
+	'img/13.jpg',
 ];
 
 $(document).ready(function(){
