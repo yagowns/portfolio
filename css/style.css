@@ -259,14 +259,6 @@ audio {
 	color: #ffffff;
 }
 
-.r40b500 {
-	font-family: 'Rubik', sans-serif;
-	font-weight: 500;
-	font-size: 40px;
-	letter-spacing: 1px;
-	color: #000000;
-}
-
 .r70b500 {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
@@ -583,31 +575,29 @@ audio {
 	font-style: italic;
 }
 
+
 /*media queries*/
 
-/* for-phone-only */
-  @media (max-width: 599px) {
-	.r40b500 {
-	font-size: 50px;
-	}
-	.cirlce_home {
-	width: 60vh;
-	height: 60vh;
-	}
-}
-/* for-tablet-portrait-up */
-  @media (min-width: 600px) {
+/* mobile small */
+@media (min-width: 320px) {
 
 }
-/* for-tablet-landscape-up */
-  @media (min-width: 900px) {
+
+@media (min-width: 480px) {
+
+}
+
+/* 900px width or less */
+@media (min-width: 900px) {
+
+}
+
+/* 1200px width or less */
+@media (min-width: 1200px) {
 	  
 }
-/* for-desktop-up */
-  @media (min-width: 1200px) {
-	  
-}
-/* for-big-desktop-up */
-  @media (min-width: 1800px) {
+
+/* 1800px width or less */
+@media (min-width: 1800px) {
 	  
 }
