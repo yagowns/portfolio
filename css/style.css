@@ -585,6 +585,14 @@ audio {
 
 /*media queries*/
 
+/*landcaspe rules*/
+@media (orientation: landscape) {
+	.cirlce_home {
+	width: 60vh;
+	height: 60vh;
+	}
+}
+
 /* for-phone-only */
   @media (max-width: 599px) {
 	.r40b500 {
