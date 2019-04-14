@@ -596,15 +596,15 @@ audio {
 	.r40b500 {
 	font-size: 60px;
 	}
+	.cirlce_home {
+	width: 50vh;
+	height: 50vh;
+	}
 }
 /* for-tablet-landscape-up */
   @media (min-width: 900px) {
 	.r40b500 {
 	font-size: 35px;
-	}
-	.cirlce_home {
-	width: 50vh;
-	height: 50vh;
 	}
 	  
 }
