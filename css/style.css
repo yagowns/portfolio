@@ -593,10 +593,15 @@ audio {
 }
 /* for-tablet-portrait-up */
   @media (min-width: 600px) {
-
+	.r40b500 {
+	font-size: 60px;
+	}
 }
 /* for-tablet-landscape-up */
   @media (min-width: 900px) {
+	.r40b500 {
+	font-size: 35px;
+	}
 	  
 }
 /* for-desktop-up */
