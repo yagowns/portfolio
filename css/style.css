@@ -582,3 +582,28 @@ audio {
 .italic {
 	font-style: italic;
 }
+
+/*media queries*/
+
+/* for-phone-only */
+  @media (max-width: 599px) {
+	.r40b500 {
+	font-size: 60px;
+	}
+}
+/* for-tablet-portrait-up */
+  @media (min-width: 600px) {
+
+}
+/* for-tablet-landscape-up */
+  @media (min-width: 900px) {
+	  
+}
+/* for-desktop-up */
+  @media (min-width: 1200px) {
+	  
+}
+/* for-big-desktop-up */
+  @media (min-width: 1800px) {
+	  
+}
