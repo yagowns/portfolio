@@ -8,8 +8,6 @@ var Homepage = Barba.BaseView.extend({
 	$('.middle_bottom').addClass('animated fadeInUp');
 	$('#aboutmehomebtn').addClass('animated fadeIn slow');
 	$('#workhomebtn').addClass('animated fadeIn slow');
-	//Increase circle
-	$('.circle_home').addClass('animated increase_circle fast');
 	//Let's Talk
 	$('#email').mouseover(function () {
 	$('.popup').css('display', 'inline');
@@ -19,7 +17,6 @@ var Homepage = Barba.BaseView.extend({
 	});
 	},
 	onEnterCompleted: function() {
-	$('.circle_home').removeClass('increase_circle');
 	// The Transition has just finished.
 	},
 	onLeave: function() {
