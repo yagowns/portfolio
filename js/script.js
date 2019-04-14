@@ -19,6 +19,7 @@ var Homepage = Barba.BaseView.extend({
 	});
 	},
 	onEnterCompleted: function() {
+	$('.circle_home').removeClass('increase_circle');
 	// The Transition has just finished.
 	},
 	onLeave: function() {
