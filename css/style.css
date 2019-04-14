@@ -586,15 +586,7 @@ audio {
 /*media queries*/
 
 /* for-phone-only */
-  @media (min-width: 599px) {
-	
-}
-/* for-tablet-portrait-up */
-  @media (max-width: 600px) {
-
-}
-/* for-tablet-landscape-up */
-  @media (max-width: 900px) {
+  @media (max-width: 599px) {
 	.r40b500 {
 	font-size: 50px;
 	}
@@ -602,10 +594,17 @@ audio {
 	width: 60vh;
 	height: 60vh;
 	}
+}
+/* for-tablet-portrait-up */
+  @media (min-width: 600px) {
+
+}
+/* for-tablet-landscape-up */
+  @media (min-width: 900px) {
 	  
 }
 /* for-desktop-up */
-  @media (max-width: 1200px) {
+  @media (min-width: 1200px) {
 	  
 }
 /* for-big-desktop-up */
