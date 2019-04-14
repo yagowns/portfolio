@@ -588,17 +588,17 @@ audio {
 /* for-phone-only */
   @media (max-width: 599px) {
 	.r40b500 {
-	font-size: 60px;
+	font-size: 50px;
 	}
 }
 /* for-tablet-portrait-up */
   @media (min-width: 600px) {
 	.r40b500 {
-	font-size: 60px;
+	font-size: 50px;
 	}
 	.cirlce_home {
-	width: 50vh;
-	height: 50vh;
+	width: 60vh;
+	height: 60vh;
 	}
 }
 /* for-tablet-landscape-up */
