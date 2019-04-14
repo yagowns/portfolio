@@ -602,6 +602,10 @@ audio {
 	.r40b500 {
 	font-size: 35px;
 	}
+	.cirlce_home {
+	width: 50vh;
+	height: 50vh;
+	}
 	  
 }
 /* for-desktop-up */
