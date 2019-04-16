@@ -575,10 +575,17 @@ audio {
 	font-style: italic;
 }
 
+/*especific media queries*/
+@media (max-width: 900px) and (orientation: landscape) and (min-height: 100px) {
+	.circle_home {
+	height: 60vw;
+	width: 60vh;
+	}
+}
 
-/*media queries*/
 
-/* mobile small */
+/*general media queries*/
+
 @media (min-width: 320px) {
 
 }
@@ -587,17 +594,17 @@ audio {
 
 }
 
-/* 900px width or less */
+
 @media (min-width: 900px) {
 
 }
 
-/* 1200px width or less */
+
 @media (min-width: 1200px) {
 	  
 }
 
-/* 1800px width or less */
+
 @media (min-width: 1800px) {
 	  
 }
