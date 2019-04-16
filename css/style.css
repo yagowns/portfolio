@@ -586,26 +586,26 @@ audio {
 
 /*general media queries*/
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
 
 }
 
-@media (min-width: 480px) {
-
-}
-
-
-@media (min-width: 900px) {
+@media (max-width: 480px) {
 
 }
 
 
-@media (min-width: 1200px) {
+@media (max-width: 900px) {
+
+}
+
+
+@media (max-width: 1200px) {
 	  
 }
 
 
-@media (min-width: 1800px) {
+@media (max-width: 1800px) {
 	.circle {
 	height: 25vw;
 	width: 25vw;
