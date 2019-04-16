@@ -649,7 +649,7 @@ audio {
 }
 
 
-@media (max-width: 1920px) and (min-width: 1200px) {
+@media (max-width: 2000px) and (min-width: 1200px) {
 	.circle {
 	display: block;
 	}
@@ -677,7 +677,7 @@ audio {
 }
 
 
-@media (min-width: 1920px) {
+@media (min-width: 2000px) {
 	.r40y500 {
 	font-size: 50px;
 	}
