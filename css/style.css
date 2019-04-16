@@ -600,24 +600,41 @@ audio {
 }
 
 
-@media (max-width: 1200px) {
-	  
+@media (min-width: 1200px) {
+	.left_holder {
+	margin-left: 6vw;
+	}
+	.r15b400 {
+	font-size: 13px;
+	}
+	.r50b500 {
+	font-size: 40px;
+	}
+	.r15w300 {
+	font-size: 17px;
+	}
+	.r20y500 {
+	font-size: 25px;
+	}
+	.r70w500 {
+	font-size: 60px;
+	}  
 }
 
 
 @media (min-width: 1800px) {
+	.r40y500 {
+	font-size: 50px;
+	}
+	.back {
+	font-size: 25px;
+	}
 	.circle {
 	height: 25vw;
 	width: 25vw;
 	}
 	.left_holder {
 	margin-left: 9vw;
-	}
-	.r40y500 {
-	font-size: 50px;
-	}
-	.back {
-	font-size: 25px;
 	}
 	.r15b400 {
 	font-size: 20px;
