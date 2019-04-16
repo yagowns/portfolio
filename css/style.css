@@ -595,8 +595,33 @@ audio {
 }
 
 
-@media (max-width: 900px) {
-
+@media (min-width: 900px) {
+	.circle {
+	height: 25vw;
+	width: 25vw;
+	}
+	.left_holder {
+	margin-left: 9vw;
+	}
+	.right_holder {
+	margin_right: 9vw;
+	max-width: 24vw;
+	}
+	.r15b400 {
+	font-size: 12px;
+	}
+	.r15b700 {
+	font-size: 12px;
+	}
+	.r15w500 {
+	font-size: 12px;
+	}
+	.r20y500 {
+	font-size: 17px;
+	}
+	.r70w500 {
+	font-size: 50px;
+	}
 }
 
 
