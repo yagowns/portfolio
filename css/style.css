@@ -658,6 +658,7 @@ audio {
 	}
 	.right_holder {
 	margin-right: 8vw;
+	max-width: 25vw;
 	}
 	.r15b400 {
 	font-size: 13px;
