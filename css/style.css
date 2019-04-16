@@ -576,7 +576,7 @@ audio {
 }
 
 /*especific media queries*/
-@media (orientation:landscape) {
+@media (orientation:portrait) {
 	.circle_home {
 	height: 60vh;
 	width: 60vh;
