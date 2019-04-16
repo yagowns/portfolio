@@ -603,11 +603,11 @@ audio {
 	height: 25vw;
 	width: 25vw;
 	}
-	.left-holder {
-	margin-left: 9vw;
+	.left_holder {
+	margin-left: 10vw;
 	}
 	.right_holder {
-	margin_right: 10vw;
+	margin-right: 10vw;
 	max-width: 24vw;
 	}
 	.r15b400 {
