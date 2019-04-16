@@ -178,8 +178,8 @@ audio {
 }
 
 .circle_home {
-	width: 600px;
-	height: 600px;
+	width: 60vw;
+	height: 60vw;
 	border-radius: 50%;
 	overflow: hidden;
 }
