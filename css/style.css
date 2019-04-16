@@ -625,7 +625,7 @@ audio {
 }
 
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 	.left_holder {
 	margin-left: 7vw;
 	}
