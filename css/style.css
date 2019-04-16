@@ -363,7 +363,7 @@ audio {
 	font-weight: 500;
 	font-size: 14px;
 	letter-spacing: 1px;
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -611,6 +611,30 @@ audio {
 	width: 25vw;
 	}
 	.left_holder {
-	margin-left: 13vw;
+	margin-left: 9vw;
+	}
+	.r40y500 {
+	font-size: 1.5em;
+	}
+	.back {
+	font-size: 1.5em;
+	}
+	.r15b400 {
+	font-size: 1.35em;
+	}
+	.r15b700 {
+	font-size: 1.4em;
+	}
+	.r15w500 {
+	font-size: 1.4em;
+	}
+	.r15w300 {
+	font-size: 1.5em;
+	}
+	.r20y500 {
+	font-size: 2em;
+	}
+	.r70w500 {
+	font-size: 1.3em;
 	}
 }
