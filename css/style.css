@@ -590,7 +590,7 @@ audio {
 
 }
 
-@media (min-width: 320px) and (max-width: 899px) {
+@media (max-width: 900px) and (min-width: 480px) {
 	.circle {
 	display: none;
 	}
