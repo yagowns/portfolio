@@ -618,7 +618,7 @@ audio {
 }
 
 
-@media (min-width: 900px) {
+@media (max-width: 1200px) and (min-width: 900px) {
 	.circle {
 	height: 25vw;
 	width: 25vw;
@@ -649,7 +649,7 @@ audio {
 }
 
 
-@media (min-width: 1200px) {
+@media (max-width: 1920px) and (min-width: 1200px) {
 	.circle {
 	display: block;
 	}
