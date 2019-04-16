@@ -602,7 +602,10 @@ audio {
 
 @media (min-width: 1200px) {
 	.left_holder {
-	margin-left: 6vw;
+	margin-left: 7vw;
+	}
+	.right_holder {
+	margin_right: 7vw;
 	}
 	.r15b400 {
 	font-size: 13px;
