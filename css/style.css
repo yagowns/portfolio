@@ -576,9 +576,9 @@ audio {
 }
 
 /*especific media queries*/
-@media (max-width: 900px) and (orientation: landscape) and (min-height: 100px) {
+@media (orientation:landscape) {
 	.circle_home {
-	height: 60vw;
+	height: 60vh;
 	width: 60vh;
 	}
 }
