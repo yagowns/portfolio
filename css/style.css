@@ -594,7 +594,27 @@ audio {
 	.circle {
 	display: none;
 	}
-
+	.groupup {
+	position: relative;
+	}
+	.black_left {
+	position: relative;
+	height: 50vh;
+	width: 100vw;
+	}
+	.left_holder {
+	position: relative;
+	transform: none;
+	top: 20%;
+	max-width: 100%;
+	}
+	.yellow_right {
+	position: relative;
+	}
+	.right_holder {
+	position: relative;
+	}
+	
 }
 
 
