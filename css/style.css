@@ -606,5 +606,8 @@ audio {
 
 
 @media (min-width: 1800px) {
-	  
+	.circle {
+	height: 25vw;
+	width: 25vw;
+	}	  
 }
