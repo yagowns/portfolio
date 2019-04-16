@@ -44,8 +44,6 @@ var AboutMe = Barba.BaseView.extend({
 	$('#third').addClass('animated fadeIn slow');
 	$('#fourth').addClass('animated fadeIn steptwo');
 	$('.waitlast').addClass('animated fadeIn slower');
-	//Shrink Circle
-	$('.circle').addClass('animated shrink_circle fast');
 	//Expanding Logo
 	$('.top_left').mouseover(function () {
 	$('#yagomurakami').text('Yago Murakami');
