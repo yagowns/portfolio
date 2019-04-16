@@ -140,8 +140,8 @@ audio {
 	position: fixed;
 	transform: translateY(-50%);
 	top: 50%;
-	margin-left: 200px;
-	max-width: 700px;
+	margin-left: 6vw;
+	max-width: 27vw;
 }
 
 .right_holder {
@@ -149,8 +149,8 @@ audio {
 	right: 0px;
 	transform: translateY(-50%);
 	top: 50%;
-	margin-right: 200px;
-	max-width: 480px;
+	margin-right: 6vw;
+	max-width: 27vw;
 }
 
 
@@ -609,5 +609,8 @@ audio {
 	.circle {
 	height: 25vw;
 	width: 25vw;
-	}	  
+	}
+	.left_holder {
+	margin-left: 13vw;
+	}
 }
