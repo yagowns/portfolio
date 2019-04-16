@@ -622,6 +622,7 @@ audio {
 	.circle {
 	height: 25vw;
 	width: 25vw;
+	display: inline;
 	}
 	.left_holder {
 	margin-left: 10vw;
@@ -649,6 +650,9 @@ audio {
 
 
 @media (min-width: 1200px) {
+	.circle {
+	display: inline;
+	}
 	.left_holder {
 	margin-left: 12vw;
 	}
@@ -683,6 +687,7 @@ audio {
 	.circle {
 	height: 25vw;
 	width: 25vw;
+	display: inline;
 	}
 	.left_holder {
 	margin-left: 9vw;
