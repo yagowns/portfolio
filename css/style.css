@@ -583,6 +583,10 @@ audio {
 	font-style: italic;
 }
 
+.breakline {
+	display: none;
+}
+
 /*especific media queries*/
 @media (orientation:portrait) {
 	.circle_home {
@@ -599,6 +603,9 @@ audio {
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
+	.breakline {
+	display: block;
+	}
 	.circle {
 	display: none;
 	}
