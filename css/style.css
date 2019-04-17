@@ -599,14 +599,14 @@ audio {
 /*general media queries*/
 
 @media (max-width: 480px) {
+	.disapear_on_mobile {
+	display: none;
+	}
 	.breakline {
 	display: block;
 	}
 	.circle {
 	display: none;
-	}
-	.left_holder {
-	margin-left: 20vw;
 	}
 	.groupup {
 	position: relative;
@@ -621,6 +621,7 @@ audio {
 	transform: none;
 	top: 20%;
 	max-width: 100%;
+	margin-left: 25px;
 	}
 	.yellow_right {
 	position: relative;
@@ -633,8 +634,8 @@ audio {
 	.right_holder {
 	position: relative;
 	transform: none;
-	margin-left: 20vw;
-	margin-right: 20vw;
+	margin-left: 25px;
+	margin-right: 25px;
 	max-width: 100%;
 	}
 	.r15w300 {
@@ -662,9 +663,6 @@ audio {
 	.circle {
 	display: none;
 	}
-	.left_holder {
-	margin-left: 20vw;
-	}
 	.groupup {
 	position: relative;
 	}
@@ -678,6 +676,7 @@ audio {
 	transform: none;
 	top: 20%;
 	max-width: 100%;
+	margin-left: 20vw;
 	}
 	.yellow_right {
 	position: relative;
