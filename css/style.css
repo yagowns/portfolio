@@ -649,6 +649,7 @@ audio {
 	}
 	.r15w500 {
 	font-size: 18px;
+	line-height: 1.25;
 	}
 	.r15b400 {
 	font-size: 16px;
