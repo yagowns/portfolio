@@ -594,12 +594,15 @@ audio {
 	.circle {
 	display: none;
 	}
+	.left_holder {
+	margin-left: 20vw;
+	}
 	.groupup {
 	position: relative;
 	}
 	.black_left {
 	position: relative;
-	height: 50vh;
+	height: 75vh;
 	width: 100vw;
 	}
 	.left_holder {
@@ -610,9 +613,17 @@ audio {
 	}
 	.yellow_right {
 	position: relative;
+	width: 100vw;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	left: 0%;
 	}
 	.right_holder {
 	position: relative;
+	transform: none;
+	top 20%;
+	margin-left: 20vw;
+	max-width: 100%;
 	}
 	
 }
