@@ -358,7 +358,20 @@ audio {
 }
 
 
-.back {
+.back_black {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.back_black:hover {
+	text-decoration: underline;
+}
+
+.back_white: {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	font-size: 14px;
@@ -367,12 +380,7 @@ audio {
 	text-decoration: none;
 }
 
-.back:hover {
-	font-family: 'Rubik', sans-serif;
-	font-weight: 500;
-	font-size: 14px;
-	letter-spacing: 1px;
-	color: #000000;
+.back_white:hover {
 	text-decoration: underline;
 }
 
