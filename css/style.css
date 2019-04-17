@@ -622,7 +622,7 @@ audio {
 	.yellow_right {
 	position: relative;
 	width: 100vw;
-	heigth: inherit;
+	height: inherit;
 	padding-top: 20%;
 	padding-bottom: 20%;
 	left: 0%;
