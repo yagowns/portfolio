@@ -178,8 +178,8 @@ audio {
 }
 
 .circle_home {
-	width: 60vw;
-	height: 60vw;
+	width: 60vh;
+	height: 60vh;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -578,8 +578,8 @@ audio {
 /*especific media queries*/
 @media (orientation:portrait) {
 	.circle_home {
-	height: 60vh;
-	width: 60vh;
+	height: 60vw;
+	width: 60vw;
 	}
 }
 
