@@ -625,7 +625,21 @@ audio {
 	margin-left: 20vw;
 	max-width: 100%;
 	}
-	
+	.r15w300 {
+	font-size: 20px;
+	}
+	.r20y500 {
+	font-size: 25px;
+	}
+	.r15w500 {
+	font-size: 18px;
+	}
+	.r15b400 {
+	font-size: 16px;
+	}
+	.r15b700 {
+	font-size: 18px;
+	}
 }
 
 
