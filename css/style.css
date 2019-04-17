@@ -598,8 +598,61 @@ audio {
 
 /*general media queries*/
 
-@media (max-width: 320px) {
-
+@media (max-width: 480px) {
+	.breakline {
+	display: block;
+	}
+	.circle {
+	display: none;
+	}
+	.left_holder {
+	margin-left: 20vw;
+	}
+	.groupup {
+	position: relative;
+	}
+	.black_left {
+	position: relative;
+	height: 75vh;
+	width: 100vw;
+	}
+	.left_holder {
+	position: relative;
+	transform: none;
+	top: 20%;
+	max-width: 100%;
+	}
+	.yellow_right {
+	position: relative;
+	width: 100vw;
+	height: inherit;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	left: 0%;
+	}
+	.right_holder {
+	position: relative;
+	transform: none;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	max-width: 100%;
+	}
+	.r15w300 {
+	font-size: 20px;
+	}
+	.r20y500 {
+	font-size: 25px;
+	}
+	.r15w500 {
+	font-size: 18px;
+	line-height: 1.25;
+	}
+	.r15b400 {
+	font-size: 16px;
+	}
+	.r15b700 {
+	font-size: 18px;
+	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
