@@ -169,6 +169,14 @@ audio {
 	margin-left: 25px;
 }
 
+.top_right {
+	position: fixed;
+	z-index: 5;
+	margin-top: 25px;
+	margin-right: 25px;
+	right: 0px;
+}
+
 .center_center {
 	position: fixed;
 	z-index: 3;
