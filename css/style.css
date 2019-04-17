@@ -622,6 +622,7 @@ audio {
 	.yellow_right {
 	position: relative;
 	width: 100vw;
+	heigth: inherit;
 	padding-top: 20%;
 	padding-bottom: 20%;
 	left: 0%;
@@ -629,8 +630,8 @@ audio {
 	.right_holder {
 	position: relative;
 	transform: none;
-	top 20%;
 	margin-left: 20vw;
+	margin-right: 20vw;
 	max-width: 100%;
 	}
 	.r15w300 {
