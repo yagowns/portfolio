@@ -595,6 +595,10 @@ audio {
 	display: none;
 }
 
+.show_on_mobile {
+display: none;
+}
+
 /*especific media queries*/
 @media (orientation:portrait) {
 	.circle_home {
@@ -607,6 +611,9 @@ audio {
 /*general media queries*/
 
 @media (max-width: 480px) {
+	.show_on_mobile {
+	display: block;
+	}
 	.disapear_on_mobile {
 	display: none;
 	}
