@@ -718,9 +718,6 @@ color: #000000;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	}
-	.back_black {
-	color: #ffffff;
-	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
@@ -799,9 +796,6 @@ color: #000000;
 	.top_left {
 	margin-top: 15px;
 	margin-left: 15px;
-	}
-	.back_black {
-	color: #ffffff;
 	}
 }
 
