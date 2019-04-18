@@ -692,7 +692,7 @@ color: #000000;
 	.portf_group {
 	margin-left: 25px;
 	margin-right: 25px;
-	padding-top: calc(20vh + 200px);
+	padding-top: calc(20vh + 75px);
 	}
 	.first_col {
 	}
@@ -772,7 +772,7 @@ color: #000000;
 	.portf_group {
 	margin-left: 10vw;
 	margin-right: 10vw;
-	padding-top: calc(20vh + 150px);
+	padding-top: calc(20vh + 100px);
 	}
 	.first_col {
 	}
