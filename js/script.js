@@ -34,7 +34,7 @@ var AboutMe = Barba.BaseView.extend({
 	namespace: 'about',
 	onEnter: function() {
 	// The new Container is ready and attached to the DOM.
-	$('body').css('background-color', '#000000');
+	$('body').css('background-color', '#ffd700');
 	$('.barba-container').addClass('animated fadeIn delay-150ms');
 	$('.top_left').addClass('animated fadeInDown');
 	$('#home_about').addClass('animated fadeIn slow');
