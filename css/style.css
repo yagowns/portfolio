@@ -286,6 +286,15 @@ audio {
 	color: #ffd700;
 }
 
+.r20w500 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 1.1;
+	color: #ffffff;
+}
+
 .r15b700 {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 700;
