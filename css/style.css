@@ -607,6 +607,10 @@ audio {
 display: none;
 }
 
+.view_black {
+color: #000000;
+}
+
 /*especific media queries*/
 @media (orientation:portrait) {
 	.circle_home {
