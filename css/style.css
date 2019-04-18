@@ -601,7 +601,7 @@ audio {
 	font-style: italic;
 }
 
-.show_on_mobile {
+.show_on_mobile, .show_on_mobile_inline {
 display: none;
 }
 
@@ -623,6 +623,9 @@ color: #000000;
 @media (max-width: 480px) {
 	.show_on_mobile {
 	display: block;
+	}
+	.show_on_mobile_inline {
+	display: inline;
 	}
 	.disapear_on_mobile {
 	display: none;
