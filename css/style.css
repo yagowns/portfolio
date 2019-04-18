@@ -741,6 +741,9 @@ color: #ffffff;
 	.show_on_mobile_inline {
 	display: inline;
 	}
+	.disapear_on_mobile {
+	display: none;
+	}
 	.circle {
 	display: none;
 	}
