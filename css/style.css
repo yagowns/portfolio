@@ -673,6 +673,9 @@ color: #000000;
 	margin-right: 25px;
 	max-width: 100%;
 	}
+	.about_spacing {
+	margin-left: -49px;
+	}
 	.r15w300 {
 	font-size: 20px;
 	}
