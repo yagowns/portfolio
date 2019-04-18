@@ -638,6 +638,8 @@ display: none;
 	.top_left {
 	background-color: #000000;
 	padding: 15px;
+	margin-top: 15px;
+	margin-left: 15px;
 	}
 	.black_left {
 	position: relative;
