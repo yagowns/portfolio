@@ -705,6 +705,9 @@ color: #000000;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	}
+	.view_black {
+	color: #ffd700;
+	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
