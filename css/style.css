@@ -601,10 +601,6 @@ audio {
 	font-style: italic;
 }
 
-.hide_first_show_later {
-	display: none;
-}
-
 .show_on_mobile {
 display: none;
 }
