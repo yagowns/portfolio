@@ -702,9 +702,7 @@ color: #000000;
 	.portf_group {
 	margin-left: 25px;
 	margin-right: 25px;
-	padding-top: calc(20vh + 100px);
-	}
-	.first_col {
+	padding-top: calc(10vh + 100px);
 	}
 	.second_col {
 	width: 100%;
@@ -723,6 +721,9 @@ color: #000000;
 @media (max-width: 900px) and (min-width: 480px) {
 	.breakline {
 	display: block;
+	}
+	.show_on_mobile_inline {
+	display: inline;
 	}
 	.circle {
 	display: none;
@@ -774,9 +775,9 @@ color: #000000;
 	font-size: 18px;
 	}
 	.portf_group {
-	margin-left: 10vw;
-	margin-right: 10vw;
-	padding-top: calc(20vh + 100px);
+	margin-left: 12vw;
+	margin-right: 12vw;
+	padding-top: calc(10vh + 100px);
 	}
 	.second_col {
 	width: 100%;
