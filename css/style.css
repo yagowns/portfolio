@@ -374,6 +374,14 @@ audio {
 	color: #ffd700;
 }
 
+.back_black_span {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000000;
+}
+
 
 .back_black {
 	font-family: 'Rubik', sans-serif;
