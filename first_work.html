@@ -29,21 +29,21 @@
 							<span class="r20b500">— Wealth is no longer material</span>
 						</div>
 						<div class="first_third space20">
-							<span class="r20b500">&#11106; Abstract</span>
+							<span class="r20b500">> Abstract</span>
 							<div class="space10"></div>
 							<span class="r15b400">[A]Live Cash is an real-time audiovisual installation that explores the data behind Bitcoin transactions. The web-based visualization receives transaction data every time one occurs inside the bitcoin blockchain network, and the information is transformed into sounds and shapes that are determined by time of occurrence and the corresponding value of the transaction. Green spheres float in a dark background in seamlessly random orders along with eerie sounds, creating an delicate atmosphere that displays a living organism in constant change.</span>
 						</div>
 						<div class="second_third space20">
-							<span class="r20b500">&#11106; Made With</span>
+							<span class="r20b500">> Made With</span>
 							<div class="space10"></div>
 							<span class="r15b400">HTML, CSS, JavaScript, Jquery, JSON, Blockchain API & Fruity Loops.</span>
 							<div class="space20"></div>
-							<span class="r20b500">&#11106; Keywords</span>
+							<span class="r20b500">> Keywords</span>
 							<div class="space10"></div>
 							<span class="r15b400">Crypocurrency, Bitcoin, Blockchain, open data, data visualization, real-time, immateriality of money.</span>
 						</div>
 						<div class="third_third space20">
-							<span class="r20b500">&#11106; Links</span>
+							<span class="r20b500">> Links</span>
 							<div class="space10"></div>
 							<span class="r15b400"><a href="http://fbaul-dcnm.pt/yago/alive_cash/" class="underline">Live Project*</a></span>
 							<div class="space10"></div>
@@ -52,7 +52,7 @@
 					</div>
 					<div class="row space50">
 						<div class="first_half">
-							<span class="r20b500">&#11106; Introduction</span>
+							<span class="r20b500">> Introduction</span>
 							<div class="space10"></div>
 							<div class="r15b400">Bitcoin is a peer-to-peer cryptocurrency that runs on a distributed open ledger called blockchain that keeps records of every on-block transaction. Each transaction is concluded when it’s inserted into a block, and a block is formed when a miner has dedicated enough computational power to solve specific mathematical calculations. While those calculations are being processed, the order of the transaction is submitted to the network and waits to be inserted into a block. This wait time is called mempool (Nakamoto, 2008).
 							<div class="space10"></div>
@@ -68,7 +68,7 @@
 					</div>
 					<div class="row space50">
 						<div class="first_half">
-							<span class="r20b500">&#11106; Concept</span>
+							<span class="r20b500">> Concept</span>
 							<div class="space10"></div>
 							<div class="r15b400 quote">“Bitcoin represents a fundamental transformation of money. An invention that changes the oldest technology we have in civilization. That changes it radically and disruptively by changing the fundamental architecture into one where every participant is equal. Where transaction has no state or context other than obeying the consensus rules of the network that no one controls. Where your money is yours. You control it absolutely through the application of digital signatures, and no one can censor it, no one can seize it, no one can freeze it. No one can tell you what to do or what not to do with your money. It is a system of money that is simultaneously, absolutely transnational and borderless. We’ve never had a system of money like that.” (Antonopoulos, Andreas M., 2016)</div>
 							<div class="space10"></div>
@@ -86,23 +86,23 @@
 					</div>
 					<div class="row space50">
 						<div class="first_half">
-							<span class="r20b500">&#11106; Implementation</span>
+							<span class="r20b500">> Implementation</span>
 							<div class="space10"></div>
 							<div class="r15b400">The project uses two different API’s from blockchain.com, one where it gets the current price, and another that sends an JSON output of every transaction inserted into the mempool. A simple .js code captures the information of interest inside every JSON output that is the amount transferred in each transaction, and multiplies that value with the current U.S. Dollar price. Each time a transaction is emitted, a few orders are compiled:
 							<div class="space10"></div>
-								<div class="bullet">&#11045; First a single audio file from thirty-four is selected and played. The selection is based on ranges of price, going from 0,01$ to 0,25$ to more than 250.000$;</div>
+								<div class="bullet">— First a single audio file from thirty-four is selected and played. The selection is based on ranges of price, going from 0,01$ to 0,25$ to more than 250.000$;</div>
 							<div class="space10"></div>
-								<div class="bullet">&#11045; At the same time, the sphere is created using HTML and CSS in a random position of the screen with initial opacity value of zero, and start moving into a direction as well as the opacity slowly becomes 100, to then turn back to zero when is time for the sphere to disappear;</div>
+								<div class="bullet">— At the same time, the sphere is created using HTML and CSS in a random position of the screen with initial opacity value of zero, and start moving into a direction as well as the opacity slowly becomes 100, to then turn back to zero when is time for the sphere to disappear;</div>
 							<div class="space10"></div>
-								<div class="bullet">&#11045; The log on the left area of the screen keeps track of all transactions, displaying the bitcoin amount, the corresponding value;</div>
+								<div class="bullet">— The log on the left area of the screen keeps track of all transactions, displaying the bitcoin amount, the corresponding value;</div>
 							<div class="space10"></div>
-								<div class="bullet">&#11045; The bigger value below the log is the sum of all transaction that happened while the page was open, showing a timer, a bitcoin total, and a U.S. Dollar total.</div>
+								<div class="bullet">— The bigger value below the log is the sum of all transaction that happened while the page was open, showing a timer, a bitcoin total, and a U.S. Dollar total.</div>
 							<div class="space10"></div>
 							Due to the possible amount of transactions, and its eventual enormous sizes, the project is programmed to refresh and start clean every few minutes to avoid memory leaks and computer crashes. As such, the longer the project is running, the more information it compiles, making it difficult for a normal computer to store all that information in the cache memory for extended periods of time. 
 							</div>
 						</div>
 						<div class="second_half">
-							<span class="r20b500">&#11106; Results</span>
+							<span class="r20b500">> Results</span>
 							<div class="space10"></div>
 							<div class="r15b400">Since this is a web-based project, the presentation can be shown in various forms. It can be displayed in any normal display, as well as in a projection. The size and scale are adaptable to the screen’s proportion, as well as the continuous display of the project, where it is solely limited on the amount of RAM memory available on the running computer, meaning that it could be displayed for several straight hours without any interruption provided that there is enough memory. The sound can be listened through headphones for a individual experience, or depending on the size of space, speakers can also be used in order to promote a more collective experience. In terms of setting, the aim of the project is to create a contemplative experience of the dynamics of bitcoin transactions, such as an ambient where the observer can be immersed in order to experience this market flow.
 							<div class="space10"></div>
@@ -119,7 +119,7 @@
 						</div>
 					</div>
 					<div class="row space50 space50down">
-						<span class="r20b500">&#11106; References</span>
+						<span class="r20b500">> References</span>
 							<div class="space10"></div>
 							<div class="r15b400">Nakamoto, Satoshi. <span class="italic">Bitcoin: A Peer-to-Peer Electronic Cash System</span>. 2008. <a href="https://bitcoin.org/bitcoin.pdf" class="underline">https://bitcoin.org/bitcoin.pdf</a>.
 							<div class="space10"></div>
