@@ -405,6 +405,18 @@ audio {
 	text-decoration: none;
 }
 
+.back_white_span {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+.back_white:hover {
+	text-decoration: underline;
+}
+
 .back_white:hover {
 	text-decoration: underline;
 }
