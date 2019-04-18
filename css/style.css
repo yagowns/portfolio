@@ -467,7 +467,6 @@ audio {
 }
 
 .portf_group {
-	display: none;
 	position: fixed;
 	z-index: 2;
 	margin: 150px 300px 0px 300px;
