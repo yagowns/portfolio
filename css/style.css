@@ -711,6 +711,9 @@ color: #000000;
 	.view_black {
 	color: #ffd700;
 	}
+	.back_black {
+	color: #ffffff;
+	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
@@ -799,6 +802,9 @@ color: #000000;
 	}
 	.view_black {
 	color: #ffd700;
+	}
+	.back_black {
+	color: #ffffff;
 	}
 }
 
