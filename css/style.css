@@ -689,6 +689,22 @@ color: #000000;
 	.r15b700 {
 	font-size: 18px;
 	}
+	.portf_group {
+	}
+	.first_col {
+	}
+	.second_col {
+	width: 100%;
+	}
+	.third_col {
+	width: 100%;
+	margin-top: 50px;
+	}
+	.fourth_col {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
