@@ -616,6 +616,10 @@ display: none;
 color: #000000;
 }
 
+.view_white {
+color: #ffffff;
+}
+
 /*especific media queries*/
 @media (orientation:portrait) {
 	.circle_home {
