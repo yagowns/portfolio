@@ -785,8 +785,6 @@ color: #000000;
 	margin-right: 10vw;
 	padding-top: calc(20vh + 100px);
 	}
-	.first_col {
-	}
 	.second_col {
 	width: 100%;
 	}
@@ -798,9 +796,6 @@ color: #000000;
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	}
-	.disapear_on_mobile {
-	display: none;
 	}
 	.show_on_mobile {
 	display: block;
