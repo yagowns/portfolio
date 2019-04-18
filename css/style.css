@@ -467,9 +467,11 @@ audio {
 }
 
 .portf_group {
-	position: fixed;
 	z-index: 2;
-	margin: 150px 300px 0px 300px;
+	wdith: 80vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 20vh;
 }
 
 .first_col {
