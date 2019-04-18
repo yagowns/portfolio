@@ -86,6 +86,48 @@ var AboutMe = Barba.BaseView.extend({
 // Don't forget to init the view!
 AboutMe.init();
 
+var View = Barba.BaseView.extend({
+	namespace: 'view',
+	onEnter: function() {
+	// The new Container is ready and attached to the DOM.
+	$('body').css('background-color', '#000000');
+	$('.barba-container').addClass('animated fadeIn delay-150ms');
+	$('.top_left').addClass('animated fadeInDown');
+	$('#home_about').addClass('animated fadeIn slow');
+	$('#work_about').addClass('animated fadeIn slow');
+	$('.waitlast').addClass('animated fadeIn slower');
+	//Expanding Logo
+	$('.top_left').mouseover(function () {
+	$('#yagomurakami').text('Yago Murakami');
+	});
+	$('.top_left').mouseout(function () {
+	$('#yagomurakami').text('Ya Mu');
+	});
+	//map circle
+	$('.map').mouseover(function() {
+		$('.map_circle').css({'display': 'flex'});
+	});
+	$('.map').mouseout(function() {
+		$('.map_circle').css({'display': 'none'});
+	});
+	},
+	onEnterCompleted: function() {
+	// The Transition has just finished.
+	$('.top_left').removeClass('animated fadeInDown');
+	$('#home_about').removeClass('animated fadeIn slow');
+	$('#work_about').removeClass('animated fadeIn slow');
+	},
+	onLeave: function() {
+	// A new Transition toward a new page has just started.
+	$('.barba-container').removeClass('animated fadeIn');
+	},
+	onLeaveCompleted: function() {
+	// The Container has just been removed from the DOM.
+	}
+});
+// Don't forget to init the view!
+View.init();
+
 var Work = Barba.BaseView.extend({
 	namespace: 'work',
 	onEnter: function() {
