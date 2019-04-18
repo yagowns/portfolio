@@ -635,6 +635,10 @@ display: none;
 	.groupup {
 	position: relative;
 	}
+	.top_left {
+	background-color: #000000;
+	padding: 15px;
+	}
 	.black_left {
 	position: relative;
 	height: 75vh;
