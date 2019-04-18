@@ -469,8 +469,8 @@ audio {
 .portf_group {
 	z-index: 2;
 	width: 80vw;
-	padding-left: 10vw;
-	padding-right: 10vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	padding-top: 15vh;
 }
 
