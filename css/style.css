@@ -429,6 +429,10 @@ audio {
 	text-decoration: underline;
 }
 
+.bg_white_click {
+	background-color: #ffffff;
+}
+
 .space10 {
 	margin-top: 10px;
 }
