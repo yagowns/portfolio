@@ -672,8 +672,9 @@ color: #ffffff;
 	}
 	.black_left {
 	position: relative;
-	height: 85vh;
 	width: 100vw;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	}
 	.left_holder {
 	position: relative;
@@ -759,8 +760,9 @@ color: #ffffff;
 	}
 	.black_left {
 	position: relative;
-	height: 85vh;
 	width: 100vw;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	}
 	.left_holder {
 	position: relative;
