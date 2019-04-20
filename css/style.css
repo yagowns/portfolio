@@ -679,7 +679,7 @@ color: #ffffff;
 	.left_holder {
 	position: relative;
 	transform: none;
-	top: 20%;
+	top: 0%;
 	max-width: 100%;
 	margin-left: 25px;
 	}
@@ -767,7 +767,7 @@ color: #ffffff;
 	.left_holder {
 	position: relative;
 	transform: none;
-	top: 20%;
+	top: 0;
 	max-width: 100%;
 	margin-left: 20vw;
 	}
