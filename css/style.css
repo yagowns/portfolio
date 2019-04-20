@@ -673,6 +673,7 @@ color: #ffffff;
 	.black_left {
 	position: relative;
 	width: 100vw;
+	height: inherit;
 	margin-top: 10%;
 	margin-bottom: 10%;
 	}
@@ -761,6 +762,7 @@ color: #ffffff;
 	.black_left {
 	position: relative;
 	width: 100vw;
+	height: inherit;
 	margin-top: 10%;
 	margin-bottom: 10%;
 	}
