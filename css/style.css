@@ -736,6 +736,9 @@ color: #ffffff;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	}
+	.top_lft {
+	position: relative;
+	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
@@ -820,6 +823,7 @@ color: #ffffff;
 	.top_left {
 	margin-top: 25px;
 	margin-left: 25px;
+	position: relative;
 	}
 }
 
