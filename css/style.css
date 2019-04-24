@@ -150,7 +150,7 @@ audio {
 	transform: translateY(-50%);
 	top: 50%;
 	margin-right: 6vw;
-	max-width: 27vw;
+	max-width: 24vw;
 }
 
 
@@ -837,6 +837,7 @@ color: #ffffff;
 	}
 	.left_holder {
 	margin-left: 10vw;
+	max-width: 40vw;
 	}
 	.right_holder {
 	margin-right: 10vw;
@@ -902,6 +903,7 @@ color: #ffffff;
 	}
 	.left_holder {
 	margin-left: 12vw;
+	max-width: 40vw;
 	}
 	.right_holder {
 	margin-right: 8vw;
