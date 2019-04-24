@@ -636,6 +636,10 @@ color: #000000;
 color: #ffffff;
 }
 
+.new_work_display {
+display: none;
+}
+
 /*especific media queries*/
 @media (orientation:portrait) {
 	.circle_home {
@@ -741,6 +745,14 @@ color: #ffffff;
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
+	.white_left {
+	position: relative;
+	width: 100vw;
+	}
+	.new_work_display {
+	display: block;
+	
+	}
 	.breakline {
 	display: block;
 	}
