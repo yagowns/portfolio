@@ -826,6 +826,45 @@ color: #ffffff;
 	margin-left: 25px;
 	position: relative;
 	}
+	/* work */
+	.r70b500 {
+	font-size: 35px;
+	}
+	.r30y700 {
+	font-size: 25px;
+	}
+	.numbers {
+	bottom: 15px;
+	left: 0px;
+	}
+	.r30b500 {
+	font-size: 24px;
+	}
+	.r20b500 {
+	font-size: 17px;
+	}
+	.web_work {
+	width: 100vw;
+	}
+	.other_work {
+	width: 100vw;
+	}
+	.margins_one {
+	margin: 50px 12VW 0px 12vw;
+	}
+	.margins_two {
+	margin: 0px 12vw 50px 12vw;
+	}
+	.margins_three {
+	margin: 0px 0px 0px 12vw;
+	}
+	.logos_rec {
+	width: 250px;
+	height: 150px;
+	}
+	.space30 {
+	margin-top: 15px;
+	}
 }
 
 
