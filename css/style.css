@@ -938,6 +938,11 @@ color: #ffffff;
 	}
 }
 
+@media (max-width: 1440px) and (min-width: 900px) {
+	.r70b500 {
+	font-size: 50px;
+	}
+}
 
 @media (max-width: 2000px) and (min-width: 1200px) {
 	.circle {
@@ -967,9 +972,6 @@ color: #ffffff;
 	font-size: 60px;
 	}
 	/* work */
-	.r70b500 {
-	font-size: 50px;
-	}
 	.r30y700 {
 	font-size: 25px;
 	}
