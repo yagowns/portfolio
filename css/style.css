@@ -805,6 +805,9 @@ display: none;
 	top: 50px;
 	border-top: none;
 	}
+	.logos_sections {
+	display: none;
+	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
@@ -955,6 +958,9 @@ display: none;
 	position: relative;
 	top: 50px;
 	border-top: none;
+	}
+	.logos_sections {
+	display: none;
 	}
 }
 
