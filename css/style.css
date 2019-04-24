@@ -910,7 +910,7 @@ color: #ffffff;
 	.r15b700 {
 	font-size: 22px;
 	}
-	.r15w500 {
+	.r15w500, r15b500 {
 	font-size: 22px;
 	}
 	.r15w300 {
@@ -919,7 +919,7 @@ color: #ffffff;
 	.r20y500 {
 	font-size: 40px;
 	}
-	.r70w500 {
+	.r70w500, r70b500 {
 	font-size: 100px;
 	}
 }
