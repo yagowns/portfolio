@@ -757,6 +757,17 @@ display: none;
 	margin-left: 20vw;
 	margin-top: -6em;
 	}
+	.white_left {
+	margin-top: 50px;
+	height: auto;
+	}
+	.empty_right {
+	height: auto;
+	}
+	.below_white {
+	position: relative;
+	top: 50px;
+	}
 	.breakline {
 	display: block;
 	}
