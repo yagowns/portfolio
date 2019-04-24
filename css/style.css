@@ -857,6 +857,35 @@ color: #ffffff;
 	.r70w500 {
 	font-size: 50px;
 	}
+	/* work */
+	.r70b500 {
+	font-size: 45px;
+	}
+	.r30y700 {
+	font-size: 25px;
+	}
+	.r30b500 {
+	font-size: 24px;
+	}
+	.r20b500 {
+	font-size: 17px;
+	}
+	.web_work {
+	width: 45vw;
+	}
+	.margins_one {
+	margin: 50px 50px 50px 12vw;
+	}
+	.margin_two {
+	margin: 50px 50px 50px 0px;
+	}
+	.margins_three {
+	margin: 90px 0px 0px 0px;
+	}
+	.logos_rec {
+	width: 250px;
+	height: 150px;
+	}
 }
 
 
@@ -886,6 +915,7 @@ color: #ffffff;
 	.r70w500 {
 	font-size: 60px;
 	}
+	/* work */
 	.r70b500 {
 	font-size: 45px;
 	}
