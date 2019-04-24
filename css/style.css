@@ -883,8 +883,8 @@ color: #ffffff;
 	.margins_one {
 	margin: 50px 12VW 0px 12vw;
 	}
-	.margin_two {
-	margin: 0px 12VW 50px 12vw;
+	.margins_two {
+	margin: 0px 12vw 50px 12vw;
 	}
 	.margins_three {
 	margin: 0px 0px 0px 0px;
@@ -927,7 +927,7 @@ color: #ffffff;
 	}
 	/* work */
 	.r70b500 {
-	font-size: 45px;
+	font-size: 50px;
 	}
 	.r30y700 {
 	font-size: 25px;
