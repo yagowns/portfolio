@@ -751,7 +751,11 @@ display: none;
 	}
 	.new_work_display {
 	display: block;
-	
+	width: 100vw;
+	height: 40vh;
+	background-color: #f3f3f3;
+	margin-left: 20vw;
+	margin-top: -6em;
 	}
 	.breakline {
 	display: block;
