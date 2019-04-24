@@ -916,10 +916,13 @@ color: #ffffff;
 	.r15w300 {
 	font-size: 25px;
 	}
-	.r20y500 {
+	.r20y500, r20b500 {
 	font-size: 40px;
 	}
 	.r70w500, r70b500 {
 	font-size: 100px;
+	}
+	.r30b500 {
+	font-size: 40px;
 	}
 }
