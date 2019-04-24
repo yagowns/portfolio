@@ -766,13 +766,13 @@ display: none;
 	width: 100vw;
 	}
 	.margins_one {
-	margin: 50px 12VW 0px 20vw;
+	margin: 50px 25px 0px 25px;
 	}
 	.margins_two {
-	margin: 50px 12vw 50px 20vw;
+	margin: 50px 25px 50px 25px;
 	}
 	.margins_three {
-	margin: 0px 0px 0px 20vw;
+	margin: 0px 25px 0px 25px;
 	}
 	.logos_rec {
 	width: 250px;
@@ -783,7 +783,7 @@ display: none;
 	}
 	.white_left {
 	position: relative;
-	width: 100vw;
+	width: 80vw;
 	}
 	.new_work_display {
 	display: block;
