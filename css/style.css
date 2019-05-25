@@ -793,6 +793,9 @@ display: none;
 	margin-left: 20vw;
 	margin-top: -6em;
 	}
+	.new_work_display img {
+	height: 40vh;
+	}
 	.white_left {
 	margin-top: 125px;
 	height: auto;
