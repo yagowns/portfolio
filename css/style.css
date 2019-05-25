@@ -948,6 +948,8 @@ display: none;
 	background-color: #f3f3f3;
 	margin-left: 20vw;
 	margin-top: -6em;
+	background: url(img/mobileshowcase.gif) no-repeat center;
+ 	background-size: cover;
 	}
 	.white_left {
 	margin-top: 125px;
