@@ -793,8 +793,11 @@ display: none;
 	margin-left: 20vw;
 	margin-top: -6em;
 	}
-	.new_work_display img {
-	height: 40vh;
+	.showcasemobile {
+	width: 100%;
+	height: 100%;
+ 	background: url(img/mobileshowcase.gif) no-repeat center;
+ 	background-size: cover;
 	}
 	.white_left {
 	margin-top: 125px;
