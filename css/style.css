@@ -979,6 +979,14 @@ display: none;
 	width: 45%;
 	margin-right: 30px;
 	}
+	.content {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+	.header_img {
+	width: 110%;
+	margin-left: -25px;
+	}
 }
 
 
