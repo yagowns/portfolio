@@ -1024,16 +1024,16 @@ display: none;
 	}
 	.first_half {
 	width: 100%;
-	margin-right: 60px;
+	margin-right: 25px;
 	}
 	.second_half {
 	width: 100%;
-	margin-right: 60px;
+	margin-right: 25px;
 	margin-top: 25px;
 	}
 	.fullsize {
 	width: 100%;
-	margin-right: 60px;
+	margin-right: 25px;
 	}
 }
 
@@ -1114,6 +1114,10 @@ display: none;
 	width: 100%;
 	margin-right: 60px;
 	margin-top: 25px;
+	}
+	.fullsize {
+	width: 100%;
+	margin-right: 60px;
 	}
 }
 
