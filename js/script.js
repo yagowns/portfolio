@@ -299,6 +299,11 @@ var showcaseArray = [
 	'img/11.png',
 	'img/12.jpg',
 	'img/13.jpg',
+	'img/14.jpg',
+	'img/15.jpg',
+	'img/16.jpg',
+	'img/17.jpg',
+	'img/18.png',
 ];
 
 $(document).ready(function(){
