@@ -1055,6 +1055,9 @@ display: none;
 	width: 30%;
 	margin-right: 23px;
 	}
+	.first_third, .second_third {
+	margin-right: 23px;
+	}
 }
 
 @media (max-width: 2000px) and (min-width: 1200px) {
