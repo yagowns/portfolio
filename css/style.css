@@ -1008,7 +1008,7 @@ display: none;
 	}
 	.first_third, .second_third, .third_third {
 	width: 100%;
-	margin-right: 0px;
+	margin-right: 25px;
 	}
 	.content {
 	margin-left: 25px;
