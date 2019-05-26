@@ -1080,6 +1080,15 @@ display: none;
 	.space30 {
 	margin-top: 15px;
 	}
+	.first_half {
+	width: 100%;
+	margin-right: 60px;
+	}
+	.second_half {
+	width: 100%;
+	margin-rigth: 60px;
+	margin-top: 25px;
+	}
 }
 
 @media (max-width: 1440px) and (min-width: 900px) {
