@@ -976,8 +976,8 @@ display: none;
 	margin-right: 30px;
 	}
 	.first_third, .second_third {
-	width: 45%;
-	margin-right: 30px;
+	width: 100%;
+	margin-right: 0px;
 	}
 	.content {
 	margin-left: 25px;
