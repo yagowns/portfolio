@@ -971,6 +971,14 @@ display: none;
 	.logos_sections {
 	display: none;
 	}
+	.first_fourth, .second_fourth, .third_fourth, .fourth_fourth {
+	width: 45%;
+	margin-right: 23px;
+	}
+	.first_third, .second_third {
+	width: 45%;
+	margin-right: 23px;
+	}
 }
 
 
