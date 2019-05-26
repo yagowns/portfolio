@@ -1051,11 +1051,9 @@ display: none;
 	.space30 {
 	margin-top: 15px;
 	}
-	.hideonmobile {
-	display: none;
-	}
-	.show_on_mobile {
-	display: block;
+	.first_fourth, .second_fourth, third_fourth, .fourth_fourth {
+	width: 30%;
+	margin-right: 32px;
 	}
 }
 
