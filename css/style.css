@@ -611,6 +611,10 @@ audio {
 	clear: both;
 }
 
+.special_row {
+	display: inline-block;
+}
+
 .quote {
 	font-style: italic;
 	margin: 0px 25px 0px 25px;
@@ -1045,6 +1049,12 @@ display: none;
 	}
 	.space30 {
 	margin-top: 15px;
+	}
+	.hideonmobile {
+	display: none;
+	}
+	.show_on_mobile {
+	display: block;
 	}
 }
 
