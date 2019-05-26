@@ -612,7 +612,8 @@ audio {
 }
 
 .special_row {
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .quote {
