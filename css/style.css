@@ -815,6 +815,22 @@ display: none;
 	.logos_sections {
 	display: none;
 	}
+	.first_fourth, .second_fourth, .third_fourth, .fourth_fourth {
+	width: 100%;
+	margin-right: 0px;
+	}
+	.first_third, .second_third, .third_third {
+	width: 100%;
+	margin-right: 0px;
+	}
+	.content {
+	margin-left: 25px;
+	margin-top: 25px;
+	}
+	.header_img {
+	width: 110%;
+	margin-left: -25px;
+	}
 }
 
 @media (max-width: 900px) and (min-width: 480px) {
