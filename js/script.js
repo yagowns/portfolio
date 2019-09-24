@@ -306,6 +306,10 @@ var showcaseArray = [
 	'img/18.png',
 	'img/19.jpg',
 	'img/20.jpg',
+	'img/21.jpg',
+	'img/22.jpg',
+	'img/23.jpg',
+	'img/24.jpg',
 ];
 
 $(document).ready(function(){
